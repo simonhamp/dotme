@@ -1,0 +1,13 @@
+title: Articles
+template: default
+layout: layout
+mount: 70589a20-c702-425a-a4cc-206335dd91e2
+taxonomies:
+  - tags
+revisions: false
+route: '/blog/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

@@ -1,0 +1,17 @@
+title: Pages
+template: pages/show
+layout: layout
+revisions: false
+route: '/{slug}'
+sort_dir: asc
+default_status: draft
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: true
+  tree:
+    -
+      entry: c69f163c-f6ee-4149-9870-ea98570534a8
+    -
+      entry: 70589a20-c702-425a-a4cc-206335dd91e2
