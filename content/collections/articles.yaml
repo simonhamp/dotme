@@ -1,5 +1,5 @@
 title: Articles
-template: default
+template: articles/show
 layout: layout
 mount: 70589a20-c702-425a-a4cc-206335dd91e2
 taxonomies:

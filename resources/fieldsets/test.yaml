@@ -1,0 +1,8 @@
+title: Test
+fields:
+  -
+    handle: external
+    field:
+      type: toggle
+      listable: hidden
+      display: External

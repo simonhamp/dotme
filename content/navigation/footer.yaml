@@ -1,4 +1,6 @@
 title: Footer
+collections:
+  - pages
 tree:
   -
     title: GitHub

@@ -1,8 +1,9 @@
 ---
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1598715613
+updated_at: 1598723517
 meta_title: 'London-based Head of Software Engineering, Simon Hamp'
+custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 id: c69f163c-f6ee-4149-9870-ea98570534a8
 ---
 <script>
@@ -11,8 +12,6 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
         document.getElementById('emoji').innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
     }, 1000);
 </script>
-
-<h1>Hi, I'm Simon <span id="emoji">🐵</span></h1>
 
 <p>
     London-based software engineer. Focus on web apps and APIs.

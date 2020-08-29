@@ -13,6 +13,20 @@ sections:
         field:
           type: markdown
           localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          type: template
+          listable: hidden
+          display: Template
+      -
+        handle: custom_title
+        field:
+          input_type: text
+          type: text
+          listable: hidden
+          display: 'Custom title'
   sidebar:
     display: Sidebar
     fields:
