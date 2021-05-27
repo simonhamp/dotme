@@ -10,8 +10,3 @@ date_behavior:
   future: private
 structure:
   root: true
-  tree:
-    -
-      entry: c69f163c-f6ee-4149-9870-ea98570534a8
-    -
-      entry: 70589a20-c702-425a-a4cc-206335dd91e2

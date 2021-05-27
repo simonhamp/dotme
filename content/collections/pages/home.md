@@ -1,10 +1,10 @@
 ---
+id: c69f163c-f6ee-4149-9870-ea98570534a8
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1598723517
-meta_title: 'London-based Head of Software Engineering, Simon Hamp'
+updated_at: 1622141276
+meta_title: 'Las Palmas-based Head of Software Engineering, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
-id: c69f163c-f6ee-4149-9870-ea98570534a8
 ---
 <script>
     setInterval(function() {
@@ -14,7 +14,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 </script>
 
 <p>
-    London-based software engineer. Focus on web apps and APIs.
+  	<strike>London</strike>Las Palmas-based software engineer. Focus on web apps and APIs.
     Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
 </p>
 
@@ -25,6 +25,8 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 <p>
     Other projects:
     <a href="https://estilistas.co.uk" target="_blank">Estilistas</a>
+  	&nbsp;&bull;&nbsp;
+    <a href="https://statamic.com/addons/simonhamp/gitamic" target="_blank">Gitamic</a>
     &nbsp;&bull;&nbsp;
     <a href="https://ens.emble.app/" target="_blank">Ensemble</a>
     &nbsp;&bull;&nbsp;
@@ -35,7 +37,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 
 <p>
     <small>
-        If you need some PHP, Laravel, or Vue help, or need some consultaion, please
+        If you need some PHP, Laravel, Statamic or Vue help, or need some consultaion, please
         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simon-hamp'});return false;">book a slot on my calendar</a>.
     </small>
 </p>
