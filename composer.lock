@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3b1b4726fb75b49deff2200ad756854",
+    "content-hash": "edd9dfa71e17d3ac64e24a66a5461dfb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3673,16 +3673,16 @@
         },
         {
             "name": "simonhamp/gitamic",
-            "version": "v1.7.3",
+            "version": "v1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simonhamp/Gitamic.git",
-                "reference": "d26d753a1d5dc6af1f663eb501fe2f5d90946d0e"
+                "reference": "31cf084910e6e452f70374bdfca136ca201a822a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simonhamp/Gitamic/zipball/d26d753a1d5dc6af1f663eb501fe2f5d90946d0e",
-                "reference": "d26d753a1d5dc6af1f663eb501fe2f5d90946d0e",
+                "url": "https://api.github.com/repos/simonhamp/Gitamic/zipball/31cf084910e6e452f70374bdfca136ca201a822a",
+                "reference": "31cf084910e6e452f70374bdfca136ca201a822a",
                 "shasum": ""
             },
             "require": {
@@ -3732,9 +3732,9 @@
             "support": {
                 "email": "simon.hamp@me.com",
                 "issues": "https://github.com/simonhamp/Gitamic/issues",
-                "source": "https://github.com/simonhamp/Gitamic/tree/v1.7.3"
+                "source": "https://github.com/simonhamp/Gitamic/tree/v1.7.4"
             },
-            "time": "2021-05-22T10:49:18+00:00"
+            "time": "2021-05-27T19:57:54+00:00"
         },
         {
             "name": "spatie/blink",
@@ -5868,16 +5868,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.2.7",
+            "version": "v5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e"
+                "reference": "53e36cb1c160505cdaf1ef201501669c4c317191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e",
-                "reference": "98cb8eeb72e55d4196dd1e36f1f16e7b3a9a088e",
+                "url": "https://api.github.com/repos/symfony/process/zipball/53e36cb1c160505cdaf1ef201501669c4c317191",
+                "reference": "53e36cb1c160505cdaf1ef201501669c4c317191",
                 "shasum": ""
             },
             "require": {
@@ -5910,7 +5910,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.3.0-BETA1"
+                "source": "https://github.com/symfony/process/tree/v5.3.0"
             },
             "funding": [
                 {
@@ -5926,7 +5926,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-08T10:27:02+00:00"
+            "time": "2021-05-26T12:52:38+00:00"
         },
         {
             "name": "symfony/routing",
