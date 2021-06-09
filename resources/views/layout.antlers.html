@@ -88,10 +88,10 @@
     </head>
     <body>
         <ul class="unstyled flex">
-            {{ nav include_home="true" }}
+            {{ nav:main include_home="true" }}
                 <li><a href="{{ url }}">{{ title }}</a></li>
                 {{ if ! last }}<li>&nbsp;&bull;&nbsp;</li>{{ /if }}
-            {{ /nav }}
+            {{ /nav:main }}
         </ul>
 
         {{ template_content }}
