@@ -1,0 +1,12 @@
+title: Pages
+template: pages/show
+layout: layout
+revisions: false
+route: '/{slug}'
+sort_dir: asc
+default_status: draft
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: true
