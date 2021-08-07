@@ -1,8 +1,9 @@
 ---
 id: c69f163c-f6ee-4149-9870-ea98570534a8
+blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1622141276
+updated_at: 1628345602
 meta_title: 'Las Palmas-based Head of Software Engineering, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 ---
@@ -37,7 +38,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 
 <p>
     <small>
-        If you need some PHP, Laravel, Statamic or Vue help, or need some consultaion, please
+        If you need some PHP, Laravel, Statamic or Vue help, or need some consultation, please
         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simon-hamp'});return false;">book a slot on my calendar</a>.
     </small>
 </p>
