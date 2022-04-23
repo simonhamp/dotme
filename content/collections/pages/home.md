@@ -34,6 +34,8 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
     &nbsp;&bull;&nbsp;
     <a href="https://builtwithbootstrap.com" target="_blank">Built With Bootstrap</a>
+    &nbsp;&bull;&nbsp;
+    <a href="https://goldtamarin.com" target="_blank">Gold Tamarin</a>
 </p>
 
 <p>
