@@ -15,7 +15,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	<strike>London</strike>Las Palmas-based software engineer. Focus on web apps and APIs.
+  	<strike>London</strike> Las Palmas-based software engineer. Focus on web apps and APIs.
     Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
 </p>
 
@@ -29,7 +29,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
   	&nbsp;&bull;&nbsp;
     <a href="https://statamic.com/addons/simonhamp/gitamic" target="_blank">Gitamic</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://ens.emble.app/" target="_blank">Ensemble</a>
+    <a href="https://seqr.site/" target="_blank">SeQR</a>
     &nbsp;&bull;&nbsp;
     <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
     &nbsp;&bull;&nbsp;
