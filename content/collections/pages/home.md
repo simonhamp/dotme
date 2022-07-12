@@ -15,7 +15,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	<strike>London</strike> Las Palmas-based software engineer. Focus on web apps and APIs.
+  	London / Las Palmas-based software engineer. Focus on web apps and APIs.
     Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
 </p>
 
