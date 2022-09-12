@@ -64,7 +64,7 @@ return [
         ],
 
         'users' => [
-             'class' => Stores\UsersStore::class,
+            'class' => Stores\UsersStore::class,
             'directory' => base_path('users'),
         ],
 
