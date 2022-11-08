@@ -15,12 +15,12 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. Focus on web apps and APIs.
-    Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
+  	London / Las Palmas based software engineer. Focus on web apps and APIs.
+    Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
 </p>
 
 <p>
-    I like to write clean, performant code. I also like to write & speak about writing code.
+    I like to write clean, performant code that helps your business excel. I also enjoy leading high-performing engineering teams.
 </p>
 
 <p>
@@ -40,7 +40,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 
 <p>
     <small>
-        If you need some PHP, Laravel, Statamic or Vue help, or need some consultation, please
+        If you'd like some PHP, Laravel, Statamic or Vue help, or need some consultation with an experienced engineering leader, please
         <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simon-hamp'});return false;">book a slot on my calendar</a>.
     </small>
 </p>
