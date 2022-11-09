@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f5c1202885056651248dc74e588e40d",
+    "content-hash": "679e88fdc9d60daa371b0fd3e8f3a990",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4432,16 +4432,16 @@
         },
         {
             "name": "simonhamp/gitamic",
-            "version": "v1.8.1",
+            "version": "v1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simonhamp/Gitamic.git",
-                "reference": "7a62bd5860d6076dca6210d24674c19f21c6e904"
+                "reference": "e80f1c53a0f878f909c2d5a020bdf6b96ed318d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simonhamp/Gitamic/zipball/7a62bd5860d6076dca6210d24674c19f21c6e904",
-                "reference": "7a62bd5860d6076dca6210d24674c19f21c6e904",
+                "url": "https://api.github.com/repos/simonhamp/Gitamic/zipball/e80f1c53a0f878f909c2d5a020bdf6b96ed318d7",
+                "reference": "e80f1c53a0f878f909c2d5a020bdf6b96ed318d7",
                 "shasum": ""
             },
             "require": {
@@ -4492,9 +4492,9 @@
             "support": {
                 "email": "simon.hamp@me.com",
                 "issues": "https://github.com/simonhamp/Gitamic/issues",
-                "source": "https://github.com/simonhamp/Gitamic/tree/v1.8.1"
+                "source": "https://github.com/simonhamp/Gitamic/tree/v1.8.3"
             },
-            "time": "2022-01-20T01:57:03+00:00"
+            "time": "2022-01-21T23:57:17+00:00"
         },
         {
             "name": "spatie/blink",
