@@ -41,7 +41,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 <p>
     <small>
         If you'd like some PHP, Laravel, Statamic or Vue help, or need some consultation with an experienced engineering leader, please
-        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simon-hamp'});return false;">book a slot on my calendar</a>.
+        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simonhamp'});return false;">book a slot on my calendar</a>.
     </small>
 </p>
 
