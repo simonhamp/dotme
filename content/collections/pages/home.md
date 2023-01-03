@@ -15,7 +15,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank" class="text-blue">Spred</a>
+  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank" class="text-blue">Spred</a><br>
     Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
 </p>
 
