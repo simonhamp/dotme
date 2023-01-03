@@ -15,12 +15,8 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas based software engineer. Focus on web apps and APIs.
-    Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
-</p>
-
-<p>
-    I like to write clean, performant code that helps your business excel. I also enjoy leading high-performing engineering teams.
+  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank" class="text-blue">Spred</a>
+    Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
 </p>
 
 <p>
@@ -33,7 +29,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     &nbsp;&bull;&nbsp;
     <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://builtwithbootstrap.com" target="_blank">Built With Bootstrap</a>
+    <strike>Built With Bootstrap</strike>
     &nbsp;&bull;&nbsp;
     <a href="https://goldtamarin.com" target="_blank">Gold Tamarin</a>
 </p>
