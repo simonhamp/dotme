@@ -45,8 +45,6 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     Friends:
     <a href="https://noeliahamp.com/" target="_blank">Noelia Hamp</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://www.alesantana.tk/" target="_blank">Alesantana</a>
-    &nbsp;&bull;&nbsp;
     <a href="http://www.falconsandallies.co.uk/" target="_blank">Falcons & Allies</a>
     &nbsp;&bull;&nbsp;
     <a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>
