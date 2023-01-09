@@ -48,4 +48,6 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     <a href="https://www.alesantana.tk/" target="_blank">Alesantana</a>
     &nbsp;&bull;&nbsp;
     <a href="http://www.falconsandallies.co.uk/" target="_blank">Falcons & Allies</a>
+    &nbsp;&bull;&nbsp;
+    <a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>
 </p>
