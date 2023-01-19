@@ -3,6 +3,10 @@ tree:
     title: GitHub
     url: 'https://github.com/simonhamp/'
   -
+    title: Mastodon
+    url: 'https://phpc.social/@simonhamp'
+    rel: me
+  -
     title: Twitter
     url: 'https://twitter.com/simonhamp'
   -

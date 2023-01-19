@@ -14,8 +14,7 @@
         "guzzlehttp/guzzle": "^7.0",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "league/html-to-markdown": "^5.1",
-        "simonhamp/gitamic": "^1.8",
+        "simonhamp/gitamic": "1.8",
         "statamic/cms": "^3.3",
         "statamic/ssg": "^1.2"
     },

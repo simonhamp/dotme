@@ -15,12 +15,8 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. Focus on web apps and APIs.
-    Head of Software Engineering at <a href="https://www.elvie.com" target="_blank" class="text-blue">Elvie</a>.
-</p>
-
-<p>
-    I like to write clean, performant code. I also like to write & speak about writing code.
+  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank" class="text-blue">Spred</a><br>
+    Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
 </p>
 
 <p>
@@ -33,15 +29,15 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     &nbsp;&bull;&nbsp;
     <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://builtwithbootstrap.com" target="_blank">Built With Bootstrap</a>
+    <strike>Built With Bootstrap</strike>
     &nbsp;&bull;&nbsp;
     <a href="https://goldtamarin.com" target="_blank">Gold Tamarin</a>
 </p>
 
 <p>
     <small>
-        If you need some PHP, Laravel, Statamic or Vue help, or need some consultation, please
-        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simon-hamp'});return false;">book a slot on my calendar</a>.
+        If you'd like some PHP, Laravel, Statamic or Vue help, or need some consultation with an experienced engineering leader, please
+        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simonhamp'});return false;">book a slot on my calendar</a>.
     </small>
 </p>
 
@@ -49,7 +45,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     Friends:
     <a href="https://noeliahamp.com/" target="_blank">Noelia Hamp</a>
     &nbsp;&bull;&nbsp;
-    <a href="https://www.alesantana.tk/" target="_blank">Alesantana</a>
-    &nbsp;&bull;&nbsp;
     <a href="http://www.falconsandallies.co.uk/" target="_blank">Falcons & Allies</a>
+    &nbsp;&bull;&nbsp;
+    <a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>
 </p>
