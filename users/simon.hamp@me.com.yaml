@@ -6,3 +6,14 @@ preferences:
   collections:
     articles:
       after_save: continue_editing
+      filters:
+        published:
+          display: Published
+          filters:
+            status:
+              status: published
+        draft:
+          display: Draft
+          filters:
+            status:
+              status: draft
