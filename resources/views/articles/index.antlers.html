@@ -1,9 +1,28 @@
-<h1 class="h3">My ramblings</h1>
+<p>
+    I've published {{ collection:count in="articles" }} articles. The most recent article was published on
+    {{ collection:articles limit="1" }}
+        {{ date format="jS M 'y" }}
+    {{ /collection:articles }}
+</p>
 
-{{ collection:articles limit="10" paginate="true" as="posts" }}
+<p>
+    And I have {{ collection:count in="articles" status:is="draft" }} articles in draft. The most recent one of those was
+    created on
+    {{ collection:articles status:is="draft" limit="1" }}
+        {{ date format="jS M 'y" }}
+    {{ /collection:articles }}
+</p>
+
+{{ collection:articles limit="20" paginate="true" as="posts" }}
     {{ posts }}
         <ul class="unstyled">
-            <li><a href="{{ url }}">{{ title }}</a></li>
+            <li>
+                <a href="{{ url }}">{{ title }}</a><br>
+                <small>
+                    <span title="Publish date">{{ date format="jS M 'y" }}</span>
+                    &bull;
+                    <span title="Reading time">{{ content | read_time:260 }} mins</span></small>
+            </li>
         </ul>
     {{ /posts }}
 
