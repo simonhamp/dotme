@@ -3,7 +3,7 @@
         <h1>{{ title }}</h1>
         <span title="Publish date">{{ date format="jS M 'y" }}</span>
         &bull;
-        <span title="Reading time">{{ content | read_time }} of your Earth minutes</span></small>
+        <span title="Reading time">{{ content | read_time:260 }} of your Earth minutes</span></small>
 
         {{ if original === 'medium' }}
             <aside>
