@@ -4,6 +4,13 @@
         <span title="Publish date">{{ date format="jS M 'y" }}</span>
         &bull;
         <span title="Reading time">{{ content | read_time }} of your Earth minutes</span></small>
+
+        {{ if original === 'medium' }}
+            <aside>
+                This article was originally published on <a href="https://medium.com/@simonhamp" target="_blank">Medium</a>.
+                But I've stopped publishing there and now exclusively publish my content here.
+            </aside>
+        {{ /if }}
     </header>
     {{ content }}
 </article>
