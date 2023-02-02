@@ -3,8 +3,8 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1628345602
-meta_title: 'Las Palmas-based Head of Software Engineering, Simon Hamp'
+updated_at: 1675356470
+meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 ---
 <script>
@@ -15,7 +15,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank" class="text-blue">Spred</a><br>
+  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank">Spred</a> and running <a href="https://buymeacoffee.com/bootstrap4eva" target="_blank">Bootstrap Forever</a><br>
     Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
 </p>
 
