@@ -17,3 +17,5 @@ preferences:
           filters:
             status:
               status: draft
+    pages:
+      after_save: continue_editing
