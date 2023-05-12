@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1677775215
+updated_at: 1683924926
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 ---
@@ -15,7 +15,7 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. I'm building <a href="https://just-spred.com/" target="_blank">Spred</a> and running <a href="https://simonhamp.notion.site/simonhamp/Veliance-The-Rebellious-Laravel-Freelancer-Directory-97ee1bd078e54c2b9c060a60d012cf5b" target="_blank">Veliance</a> and <a href="https://buymeacoffee.com/bootstrap4eva" target="_blank">Bootstrap Forever</a>
+  	London / Las Palmas-based software engineer. I'm building NativePHP, <a href="https://just-spred.com/" target="_blank">Spred</a> and running <a href="https://simonhamp.notion.site/simonhamp/Veliance-The-Rebellious-Laravel-Freelancer-Directory-97ee1bd078e54c2b9c060a60d012cf5b" target="_blank">Veliance</a> and <a href="https://buymeacoffee.com/bootstrap4eva" target="_blank">Bootstrap Forever</a>
 </p>
 
 <p>
@@ -31,8 +31,6 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     <a href="https://seqr.site/" target="_blank">SeQR</a>
     &nbsp;&bull;&nbsp;
     <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
-    &nbsp;&bull;&nbsp;
-    <strike>Built With Bootstrap</strike>
     &nbsp;&bull;&nbsp;
     <a href="https://goldtamarin.com" target="_blank">Gold Tamarin</a>
 </p>
