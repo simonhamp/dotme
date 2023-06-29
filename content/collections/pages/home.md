@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1683924926
+updated_at: 1688065256
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 ---
@@ -15,31 +15,13 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 </script>
 
 <p>
-  	London / Las Palmas-based software engineer. I'm building NativePHP, <a href="https://just-spred.com/" target="_blank">Spred</a> and running <a href="https://simonhamp.notion.site/simonhamp/Veliance-The-Rebellious-Laravel-Freelancer-Directory-97ee1bd078e54c2b9c060a60d012cf5b" target="_blank">Veliance</a> and <a href="https://buymeacoffee.com/bootstrap4eva" target="_blank">Bootstrap Forever</a>
+  	London / Las Palmas-based freelance software engineer. I'm one of those nutcases that loves PHP, and have done for almost 20 years. I'm also a huge Laravel fan and have been using it for almost 10 years - I'm dangerous.
 </p>
 
-<p>
-    Previously Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
-</p>
+I work with innovative clients, have a few of my own [Side Projects](/side-projects) and sponsor and contribute to various [Open Source](/open-source) projects.
 
 <p>
-    Other projects:
-    <a href="https://estilistas.co.uk" target="_blank">Estilistas</a>
-  	&nbsp;&bull;&nbsp;
-    <a href="https://statamic.com/addons/simonhamp/gitamic" target="_blank">Gitamic</a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://seqr.site/" target="_blank">SeQR</a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://goldtamarin.com" target="_blank">Gold Tamarin</a>
-</p>
-
-<p>
-    <small>
-        If you'd like some PHP, Laravel, Statamic or Vue help, or need some consultation with an experienced engineering leader, please
-        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/simonhamp'});return false;">book a slot on my calendar</a>.
-    </small>
+    I was Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>, where I worked for almost 6 years innovating in the #FemTech space.
 </p>
 
 <p>
