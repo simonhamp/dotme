@@ -51,6 +51,12 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://gitamic.composer.sh"
+        }
+    ],
     "prefer-stable": true,
     "scripts": {
         "pre-update-cmd": [

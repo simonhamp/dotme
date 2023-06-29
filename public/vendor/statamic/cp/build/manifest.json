@@ -1,6 +1,6 @@
 {
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-bb0a0c84.css",
+    "file": "assets/tailwind-fa7c9575.css",
     "isEntry": true,
     "src": "resources/css/tailwind.css"
   },
@@ -819,7 +819,7 @@
       "resources/svg/filetypes/video.svg",
       "resources/svg/filetypes/xml.svg"
     ],
-    "file": "assets/app-78eafe1e.js",
+    "file": "assets/app-ac87cc41.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
