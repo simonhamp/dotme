@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d60e0525d164bc3d0e1c3e60b33864b",
+    "content-hash": "a75f9a7747020dfaac3ab3584d35a0ad",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1247,81 +1247,6 @@
                 }
             ],
             "time": "2022-02-20T15:07:15+00:00"
-        },
-        {
-            "name": "gitonomy/gitlib",
-            "version": "v1.3.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gitonomy/gitlib.git",
-                "reference": "9fea656e75ad6e3452feb2cac46a6c1239cd7f74"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gitonomy/gitlib/zipball/9fea656e75ad6e3452feb2cac46a6c1239cd7f74",
-                "reference": "9fea656e75ad6e3452feb2cac46a6c1239cd7f74",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "php": "^5.6 || ^7.0 || ^8.0",
-                "symfony/polyfill-mbstring": "^1.7",
-                "symfony/process": "^3.4 || ^4.4 || ^5.0 || ^6.0"
-            },
-            "require-dev": {
-                "ext-fileinfo": "*",
-                "phpspec/prophecy": "^1.10.2",
-                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.20 || ^9.5.9",
-                "psr/log": "^1.0"
-            },
-            "suggest": {
-                "ext-fileinfo": "Required to determine the mimetype of a blob",
-                "psr/log": "Required to use loggers for reporting of execution"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Gitonomy\\Git\\": "src/Gitonomy/Git/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Graham Campbell",
-                    "email": "hello@gjcampbell.co.uk",
-                    "homepage": "https://github.com/GrahamCampbell"
-                },
-                {
-                    "name": "Julien Didier",
-                    "email": "genzo.wm@gmail.com",
-                    "homepage": "https://github.com/juliendidier"
-                },
-                {
-                    "name": "Grégoire Pineau",
-                    "email": "lyrixx@lyrixx.info",
-                    "homepage": "https://github.com/lyrixx"
-                },
-                {
-                    "name": "Alexandre Salomé",
-                    "email": "alexandre.salome@gmail.com",
-                    "homepage": "https://github.com/alexandresalome"
-                }
-            ],
-            "description": "Library for accessing git",
-            "support": {
-                "issues": "https://github.com/gitonomy/gitlib/issues",
-                "source": "https://github.com/gitonomy/gitlib/tree/v1.3.8"
-            },
-            "funding": [
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/gitonomy/gitlib",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2023-05-11T08:29:06+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -4992,68 +4917,6 @@
                 "source": "https://github.com/Seldaek/signal-handler/tree/2.0.1"
             },
             "time": "2022-07-20T18:31:45+00:00"
-        },
-        {
-            "name": "simonhamp/gitamic",
-            "version": "2.0.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://gitamic.composer.sh/download/9986cd1c-b5aa-49aa-92b2-8f2bc9743520/gitamic-2.0.0.zip",
-                "reference": "79edb63042ebe1a6c409bfccacb32fe6231aa71b",
-                "shasum": "42fba9b14a9abc25f2fe2b685a3865b05567ab6f"
-            },
-            "require": {
-                "gitonomy/gitlib": "^1.2",
-                "php": "^8.0",
-                "statamic/cms": "^4.0"
-            },
-            "require-dev": {
-                "nunomaduro/collision": "^7.0",
-                "orchestra/testbench": "^8.0",
-                "pestphp/pest": "^2.0",
-                "pestphp/pest-plugin-laravel": "^2.0",
-                "phpunit/phpunit": "^10.0"
-            },
-            "type": "statamic-addon",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "SimonHamp\\Gitamic\\ServiceProvider"
-                    ]
-                },
-                "statamic": {
-                    "name": "Gitamic",
-                    "editions": [
-                        "basic",
-                        "pro"
-                    ],
-                    "description": "A beautiful Git interface in Statamic"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SimonHamp\\Gitamic\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "SimonHamp\\Gitamic\\Tests\\": "tests/"
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Simon Hamp",
-                    "email": "simon.hamp@me.com"
-                }
-            ],
-            "description": "A beautiful Git interface inside Statamic",
-            "support": {
-                "email": "simon.hamp@me.com"
-            },
-            "time": "2023-06-29T12:41:01+00:00"
         },
         {
             "name": "spatie/blink",
@@ -8817,6 +8680,81 @@
             "time": "2023-04-12T12:00:00+00:00"
         },
         {
+            "name": "gitonomy/gitlib",
+            "version": "v1.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gitonomy/gitlib.git",
+                "reference": "9fea656e75ad6e3452feb2cac46a6c1239cd7f74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gitonomy/gitlib/zipball/9fea656e75ad6e3452feb2cac46a6c1239cd7f74",
+                "reference": "9fea656e75ad6e3452feb2cac46a6c1239cd7f74",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": "^5.6 || ^7.0 || ^8.0",
+                "symfony/polyfill-mbstring": "^1.7",
+                "symfony/process": "^3.4 || ^4.4 || ^5.0 || ^6.0"
+            },
+            "require-dev": {
+                "ext-fileinfo": "*",
+                "phpspec/prophecy": "^1.10.2",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.20 || ^9.5.9",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "ext-fileinfo": "Required to determine the mimetype of a blob",
+                "psr/log": "Required to use loggers for reporting of execution"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gitonomy\\Git\\": "src/Gitonomy/Git/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Julien Didier",
+                    "email": "genzo.wm@gmail.com",
+                    "homepage": "https://github.com/juliendidier"
+                },
+                {
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info",
+                    "homepage": "https://github.com/lyrixx"
+                },
+                {
+                    "name": "Alexandre Salomé",
+                    "email": "alexandre.salome@gmail.com",
+                    "homepage": "https://github.com/alexandresalome"
+                }
+            ],
+            "description": "Library for accessing git",
+            "support": {
+                "issues": "https://github.com/gitonomy/gitlib/issues",
+                "source": "https://github.com/gitonomy/gitlib/tree/v1.3.8"
+            },
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/gitonomy/gitlib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-05-11T08:29:06+00:00"
+        },
+        {
             "name": "hamcrest/hamcrest-php",
             "version": "v2.0.1",
             "source": {
@@ -10541,6 +10479,68 @@
                 }
             ],
             "time": "2023-02-07T11:34:05+00:00"
+        },
+        {
+            "name": "simonhamp/gitamic",
+            "version": "2.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://gitamic.composer.sh/download/9986cd1c-b5aa-49aa-92b2-8f2bc9743520/gitamic-2.0.0.zip",
+                "reference": "79edb63042ebe1a6c409bfccacb32fe6231aa71b",
+                "shasum": "42fba9b14a9abc25f2fe2b685a3865b05567ab6f"
+            },
+            "require": {
+                "gitonomy/gitlib": "^1.2",
+                "php": "^8.0",
+                "statamic/cms": "^4.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^7.0",
+                "orchestra/testbench": "^8.0",
+                "pestphp/pest": "^2.0",
+                "pestphp/pest-plugin-laravel": "^2.0",
+                "phpunit/phpunit": "^10.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SimonHamp\\Gitamic\\ServiceProvider"
+                    ]
+                },
+                "statamic": {
+                    "name": "Gitamic",
+                    "editions": [
+                        "basic",
+                        "pro"
+                    ],
+                    "description": "A beautiful Git interface in Statamic"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SimonHamp\\Gitamic\\": "src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "SimonHamp\\Gitamic\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Simon Hamp",
+                    "email": "simon.hamp@me.com"
+                }
+            ],
+            "description": "A beautiful Git interface inside Statamic",
+            "support": {
+                "email": "simon.hamp@me.com"
+            },
+            "time": "2023-06-29T12:41:01+00:00"
         },
         {
             "name": "spatie/backtrace",

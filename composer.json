@@ -13,7 +13,6 @@
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.0",
         "league/html-to-markdown": "^5.1",
-        "simonhamp/gitamic": "^2.0",
         "statamic/cms": "^4.0",
         "statamic/ssg": "^2.0"
     },
@@ -22,6 +21,7 @@
         "mockery/mockery": "^1.5",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.0",
+        "simonhamp/gitamic": "^2.0",
         "spatie/laravel-ignition": "^2.0"
     },
     "config": {
