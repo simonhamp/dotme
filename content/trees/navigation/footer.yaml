@@ -1,5 +1,9 @@
 tree:
   -
+    id: 70b7b12f-6a78-4737-b24f-17210b877931
+    title: Twitter
+    url: 'https://twitter.com/simonhamp'
+  -
     id: f3444670-e5f0-47fd-be89-127a2c32319e
     title: GitHub
     url: 'https://github.com/simonhamp/'
@@ -8,14 +12,6 @@ tree:
     title: Mastodon
     url: 'https://phpc.social/@simonhamp'
     rel: me
-  -
-    id: 70b7b12f-6a78-4737-b24f-17210b877931
-    title: Twitter
-    url: 'https://twitter.com/simonhamp'
-  -
-    id: 1d896acc-df4d-4675-8640-f47516ea025e
-    title: Keybase
-    url: 'https://keybase.io/simonhamp'
   -
     id: 6f0bb3a9-c957-4b7d-b699-73b6dd0a341b
     title: LinkedIn
