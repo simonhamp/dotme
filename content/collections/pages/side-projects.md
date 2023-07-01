@@ -3,7 +3,7 @@ id: 7ed0fe26-a236-435f-9f9f-f4a4eec86370
 blueprint: pages
 title: 'Side Projects'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1688063683
+updated_at: 1688216275
 ---
 ## Active
 
@@ -11,7 +11,7 @@ updated_at: 1688063683
 
 A free to use directory (rebel alliance!) of great Laravel Freelancers
 
-### SeQR (<a href="https://seqr.site/" target="_blank">SeQR.site</a>
+### SeQR (<a href="https://seqr.site/" target="_blank">SeQR.site</a>)
 
 A low-cost, no-frills QR code management and analytics SaaS
 
