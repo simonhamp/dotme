@@ -1,6 +1,6 @@
 {
   "resources/css/tailwind.css": {
-    "file": "assets/tailwind-358db8aa.css",
+    "file": "assets/tailwind-b53a3748.css",
     "isEntry": true,
     "src": "resources/css/tailwind.css"
   },
@@ -328,6 +328,7 @@
       "resources/svg/icons/regular/arrows-horizontal-collapse.svg",
       "resources/svg/icons/regular/arrows-horizontal-expand.svg",
       "resources/svg/icons/regular/arrows-shrink.svg",
+      "resources/svg/icons/regular/asset-folder.svg",
       "resources/svg/icons/regular/assets-mode-grid.svg",
       "resources/svg/icons/regular/assets-mode-table.svg",
       "resources/svg/icons/regular/code-block.svg",
@@ -719,6 +720,7 @@
       "resources/svg/icons/regular/arrows-horizontal-collapse.svg",
       "resources/svg/icons/regular/arrows-horizontal-expand.svg",
       "resources/svg/icons/regular/arrows-shrink.svg",
+      "resources/svg/icons/regular/asset-folder.svg",
       "resources/svg/icons/regular/assets-mode-grid.svg",
       "resources/svg/icons/regular/assets-mode-table.svg",
       "resources/svg/icons/regular/code-block.svg",
@@ -819,7 +821,7 @@
       "resources/svg/filetypes/video.svg",
       "resources/svg/filetypes/xml.svg"
     ],
-    "file": "assets/app-c9f95e89.js",
+    "file": "assets/app-d5365b84.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
@@ -2422,6 +2424,11 @@
     "file": "assets/arrows-shrink-9620cfb7.js",
     "isDynamicEntry": true,
     "src": "resources/svg/icons/regular/arrows-shrink.svg"
+  },
+  "resources/svg/icons/regular/asset-folder.svg": {
+    "file": "assets/asset-folder-5e5084a4.js",
+    "isDynamicEntry": true,
+    "src": "resources/svg/icons/regular/asset-folder.svg"
   },
   "resources/svg/icons/regular/assets-mode-grid.svg": {
     "file": "assets/assets-mode-grid-61de1550.js",
