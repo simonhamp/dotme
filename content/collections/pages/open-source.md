@@ -3,11 +3,11 @@ id: 72d9e39a-e775-4a2f-92c1-a302639700c4
 blueprint: pages
 title: 'Open Source'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1688215912
+updated_at: 1691140188
 ---
-## 🆓 NativePHP
+## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
 
-<small>Coming soon!</small>
+<small>NativePHP is a new way to build native apps using the tools you already know and love: Laravel, HTML, CSS and JavaScript on top of Electron or Tauri.</small>
 
 ## 🆓 Laravel Nova CSV Import (<a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">simonhamp/laravel-nova-csv-import</a>)
 
