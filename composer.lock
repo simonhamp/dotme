@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c7a3d5764fc1902ede2d0cf8192e887",
+    "content-hash": "0a6d2394420b13ec4e23d1e384a6be75",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -10763,15 +10763,16 @@
         },
         {
             "name": "simonhamp/gitamic",
-            "version": "dev-main",
+            "version": "2.1.0",
             "dist": {
-                "type": "path",
-                "url": "../Gitamic",
-                "reference": "a740aaa8fdd7155609d8c500ad570043f0f66e1f"
+                "type": "zip",
+                "url": "https://gitamic.composer.sh/download/9a02d426-40b4-4a42-b978-a5c99cde2ad7/gitamic-2.1.0.zip",
+                "reference": "12d69cf2fd7c07e9e241cb581ffd2ac595b50cec",
+                "shasum": "9b304206078d54c2a17537a1eda43405bc6c8d2c"
             },
             "require": {
                 "gitonomy/gitlib": "^1.2",
-                "php": "^8.0",
+                "php": "^8.1",
                 "statamic/cms": "^4.0"
             },
             "require-dev": {
@@ -10783,18 +10784,18 @@
             },
             "type": "statamic-addon",
             "extra": {
-                "statamic": {
-                    "name": "Gitamic",
-                    "description": "A beautiful Git interface in Statamic",
-                    "editions": [
-                        "basic",
-                        "pro"
-                    ]
-                },
                 "laravel": {
                     "providers": [
                         "SimonHamp\\Gitamic\\ServiceProvider"
                     ]
+                },
+                "statamic": {
+                    "name": "Gitamic",
+                    "editions": [
+                        "basic",
+                        "pro"
+                    ],
+                    "description": "A beautiful Git interface in Statamic"
                 }
             },
             "autoload": {
@@ -10824,15 +10825,13 @@
                 "statamic"
             ],
             "support": {
-                "email": "gitamic@simonhamp.me",
-                "issues": "https://github.com/simonhamp/gitamic-support/issues",
                 "docs": "https://gitamic.simonhamp.io/",
+                "email": "gitamic@simonhamp.me",
                 "forum": "https://github.com/simonhamp/gitamic-support/discussions",
+                "issues": "https://github.com/simonhamp/gitamic-support/issues",
                 "security": "https://gitamic.simonhamp.io/security-policy"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2023-08-30T04:23:21+00:00"
         },
         {
             "name": "spatie/backtrace",
@@ -11192,18 +11191,9 @@
             "time": "2021-07-28T10:34:58+00:00"
         }
     ],
-    "aliases": [
-        {
-            "package": "simonhamp/gitamic",
-            "version": "dev-main",
-            "alias": "2.0.0",
-            "alias_normalized": "2.0.0.0"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "simonhamp/gitamic": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

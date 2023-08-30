@@ -22,7 +22,7 @@
         "mockery/mockery": "^1.5",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.0",
-        "simonhamp/gitamic": "dev-main as 2.0.0",
+        "simonhamp/gitamic": "^2.0",
         "spatie/laravel-ignition": "^2.0"
     },
     "config": {
@@ -53,10 +53,6 @@
         }
     },
     "repositories": [
-        {
-            "type": "path",
-            "url": "../Gitamic/"
-        },
         {
             "type": "composer",
             "url": "https://gitamic.composer.sh"
