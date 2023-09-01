@@ -3,9 +3,9 @@ id: caff6f81-6c7a-4c6b-b108-ff486fb67517
 blueprint: pages
 title: Tools
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1691612405
+updated_at: 1693503034
 ---
-I use a number of tools to get my work done:
+I use a number of tools to get my work done. I also recommend a lot of these tools to my clients:
 
 - [Laravel](https://laravel.com) - obvs
 - [Statamic](https://statamic.com) - the CMS I used to make this site and what everyone should be using already (built on Laravel ofc)
@@ -15,5 +15,6 @@ I use a number of tools to get my work done:
 - [ScreenStudio](https://screenstudio.lemonsqueezy.com?aff=ZJVoO) for quick screen recordings
 - [Fathom Analytics](https://usefathom.com/ref/DRLWQG) - the best privacy-protecting alternative to Google Analytics
 - [Digital Ocean](https://m.do.co/c/adc0b0656d7c) - good, solid virtual servers
+- [Mailcoach](mailcoach.app/?via=simonhamp) - straightforward email campaigns and transactional email management
 
-**Some of these links contain affiliate trackers and I may earn a referral fee**
+**Some of these are affiliate tracking links and I may earn a referral fee when you sign up for services or purchase products**
