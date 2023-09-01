@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a6d2394420b13ec4e23d1e384a6be75",
+    "content-hash": "d0d6bbb1fa7d22e8fc0fe83db475c13d",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -126,16 +126,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb"
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/90d087e988ff194065333d16bc5cf649872d9cdb",
-                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/76e46335014860eec1aa5a724799a00a2e47cc85",
+                "reference": "76e46335014860eec1aa5a724799a00a2e47cc85",
                 "shasum": ""
             },
             "require": {
@@ -182,7 +182,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.6"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.7"
             },
             "funding": [
                 {
@@ -198,7 +198,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-06T12:02:59+00:00"
+            "time": "2023-08-30T09:31:38+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -2429,16 +2429,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048"
+                "reference": "3669d6d5f7a47a93c08ddff335e6d945481a1dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
-                "reference": "d44a24690f16b8c1808bf13b1bd54ae4c63ea048",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/3669d6d5f7a47a93c08ddff335e6d945481a1dd5",
+                "reference": "3669d6d5f7a47a93c08ddff335e6d945481a1dd5",
                 "shasum": ""
             },
             "require": {
@@ -2531,7 +2531,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-24T15:16:10+00:00"
+            "time": "2023-08-30T16:55:00+00:00"
         },
         {
             "name": "league/config",
@@ -5191,16 +5191,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v4.19.0",
+            "version": "v4.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "bf8f906ecdef89a42cbc088f8ab3bc2bf4a5c272"
+                "reference": "9f324a57aba71fad79049012da138684da29210a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/bf8f906ecdef89a42cbc088f8ab3bc2bf4a5c272",
-                "reference": "bf8f906ecdef89a42cbc088f8ab3bc2bf4a5c272",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/9f324a57aba71fad79049012da138684da29210a",
+                "reference": "9f324a57aba71fad79049012da138684da29210a",
                 "shasum": ""
             },
             "require": {
@@ -5281,7 +5281,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v4.19.0"
+                "source": "https://github.com/statamic/cms/tree/v4.20.0"
             },
             "funding": [
                 {
@@ -5289,7 +5289,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-23T15:43:20+00:00"
+            "time": "2023-08-30T16:40:23+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -9508,16 +9508,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "4.0.2",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "5647d65443818959172645e7ed999217360654b6"
+                "reference": "a95037b6d9e608ba092da1b23931e537cadc3c3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/5647d65443818959172645e7ed999217360654b6",
-                "reference": "5647d65443818959172645e7ed999217360654b6",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/a95037b6d9e608ba092da1b23931e537cadc3c3c",
+                "reference": "a95037b6d9e608ba092da1b23931e537cadc3c3c",
                 "shasum": ""
             },
             "require": {
@@ -9557,7 +9557,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.0.2"
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/4.1.0"
             },
             "funding": [
                 {
@@ -9565,7 +9565,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-07T09:13:23+00:00"
+            "time": "2023-08-31T06:24:48+00:00"
         },
         {
             "name": "phpunit/php-invoker",
@@ -10422,16 +10422,16 @@
         },
         {
             "name": "sebastian/lines-of-code",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/lines-of-code.git",
-                "reference": "17c4d940ecafb3d15d2cf916f4108f664e28b130"
+                "reference": "649e40d279e243d985aa8fb6e74dd5bb28dc185d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/17c4d940ecafb3d15d2cf916f4108f664e28b130",
-                "reference": "17c4d940ecafb3d15d2cf916f4108f664e28b130",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/649e40d279e243d985aa8fb6e74dd5bb28dc185d",
+                "reference": "649e40d279e243d985aa8fb6e74dd5bb28dc185d",
                 "shasum": ""
             },
             "require": {
@@ -10467,7 +10467,8 @@
             "homepage": "https://github.com/sebastianbergmann/lines-of-code",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
-                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/2.0.0"
+                "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
+                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/2.0.1"
             },
             "funding": [
                 {
@@ -10475,7 +10476,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-03T07:08:02+00:00"
+            "time": "2023-08-31T09:25:50+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -10763,12 +10764,11 @@
         },
         {
             "name": "simonhamp/gitamic",
-            "version": "2.1.0",
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://gitamic.composer.sh/download/9a02d426-40b4-4a42-b978-a5c99cde2ad7/gitamic-2.1.0.zip",
-                "reference": "12d69cf2fd7c07e9e241cb581ffd2ac595b50cec",
-                "shasum": "9b304206078d54c2a17537a1eda43405bc6c8d2c"
+                "type": "path",
+                "url": "../Gitamic",
+                "reference": "b3053467a8c5559d73d5da7a459aa4e972083bf4"
             },
             "require": {
                 "gitonomy/gitlib": "^1.2",
@@ -10784,18 +10784,18 @@
             },
             "type": "statamic-addon",
             "extra": {
+                "statamic": {
+                    "name": "Gitamic",
+                    "description": "A beautiful Git interface in Statamic",
+                    "editions": [
+                        "basic",
+                        "pro"
+                    ]
+                },
                 "laravel": {
                     "providers": [
                         "SimonHamp\\Gitamic\\ServiceProvider"
                     ]
-                },
-                "statamic": {
-                    "name": "Gitamic",
-                    "editions": [
-                        "basic",
-                        "pro"
-                    ],
-                    "description": "A beautiful Git interface in Statamic"
                 }
             },
             "autoload": {
@@ -10825,13 +10825,15 @@
                 "statamic"
             ],
             "support": {
-                "docs": "https://gitamic.simonhamp.io/",
                 "email": "gitamic@simonhamp.me",
-                "forum": "https://github.com/simonhamp/gitamic-support/discussions",
                 "issues": "https://github.com/simonhamp/gitamic-support/issues",
+                "docs": "https://gitamic.simonhamp.me/",
+                "forum": "https://github.com/simonhamp/gitamic-support/discussions",
                 "security": "https://gitamic.simonhamp.io/security-policy"
             },
-            "time": "2023-08-30T04:23:21+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "spatie/backtrace",
@@ -11191,13 +11193,22 @@
             "time": "2021-07-28T10:34:58+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "simonhamp/gitamic",
+            "version": "dev-main",
+            "alias": "2.0.0",
+            "alias_normalized": "2.0.0.0"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "simonhamp/gitamic": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": "^8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
