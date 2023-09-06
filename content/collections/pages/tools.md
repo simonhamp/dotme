@@ -3,7 +3,7 @@ id: caff6f81-6c7a-4c6b-b108-ff486fb67517
 blueprint: pages
 title: Tools
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1693503034
+updated_at: 1693989502
 ---
 I use a number of tools to get my work done. I also recommend a lot of these tools to my clients:
 
@@ -15,6 +15,7 @@ I use a number of tools to get my work done. I also recommend a lot of these too
 - [ScreenStudio](https://screenstudio.lemonsqueezy.com?aff=ZJVoO) for quick screen recordings
 - [Fathom Analytics](https://usefathom.com/ref/DRLWQG) - the best privacy-protecting alternative to Google Analytics
 - [Digital Ocean](https://m.do.co/c/adc0b0656d7c) - good, solid virtual servers
-- [Mailcoach](mailcoach.app/?via=simonhamp) - straightforward email campaigns and transactional email management
+- [OhDear](https://ohdear.app/?via=simonhamp) - excellent uptime monitoring
+- [Mailcoach](https://mailcoach.app/?via=simonhamp) - straightforward email campaigns and transactional email management
 
 **Some of these are affiliate tracking links and I may earn a referral fee when you sign up for services or purchase products**
