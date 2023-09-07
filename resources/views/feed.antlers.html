@@ -1,7 +1,7 @@
 <rss version="2.0">
     <channel>
         {{ get_content from="/blog" }}
-        <title>{{ title | ensure_right(' :: Sometimes It Works :: simonhamp.me') | cdata }}</title>
+        <title>{{ 'Sometimes It Works :: simonhamp.me' | cdata }}</title>
         <link>{{ site.url }}</link>
         <description>{{ content | cdata }}</description>
         {{ /get_content }}
