@@ -11,7 +11,8 @@ tree:
     id: f3dd7ba3-793a-49d9-b5c4-ce7b0d5a5695
     title: Mastodon
     url: 'https://phpc.social/@simonhamp'
-    rel: me
+    data:
+      rel: me
   -
     id: 6f0bb3a9-c957-4b7d-b699-73b6dd0a341b
     title: LinkedIn
