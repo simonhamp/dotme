@@ -9,14 +9,15 @@
         <meta name="description" content="{{ meta_description or description }}">
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,900" rel="stylesheet">
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="/favicon.png" />
-        <link rel="alternate" type="application/rss+xml" title="Simon's RSS feed" href="/blog/feed.xml" />
-        <meta property="og:title" content="simonhamp.me">
+        <link rel="icon" type="image/png" href="{{ site.permalink }}/favicon.png" />
+        <link rel="alternate" type="application/rss+xml" title="Simon's RSS feed" href="{{ site.permalink }}/blog/feed.xml" />
+        <meta property="og:title" content="{{ meta_title or title }} :: simonhamp.me">
         <meta property="og:type" content="article" />
         <meta property="og:description" content="{{ social_description or meta_description or description }}">
-        <meta property="og:image" content="/assets/thumbnail.jpg">
-        <meta property="og:url" content="{{ url }}">
+        <meta property="og:image" content="{{ site.permalink }}/assets/thumbnail.jpg">
+        <meta property="og:url" content="{{ current_url }}">
         <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:creator" content="@simonhamp">
         <style>
             body {
                 margin: 100px 20px;
