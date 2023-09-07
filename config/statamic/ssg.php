@@ -62,7 +62,7 @@ return [
     */
 
     'urls' => [
-        //
+        '/blog/feed.xml',
     ],
 
     /*
