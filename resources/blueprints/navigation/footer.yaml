@@ -1,0 +1,18 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: rel
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Rel
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
