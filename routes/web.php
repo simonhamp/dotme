@@ -12,4 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::statamic('blog/page/{page}', 'articles.index', ['load' => '70589a20-c702-425a-a4cc-206335dd91e2']);
+
+Route::statamic('blog/feed.xml', 'feed', [
+    'layout' => 'feed',
+    'content_type' => 'rss',
+]);
