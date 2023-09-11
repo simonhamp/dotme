@@ -3,25 +3,26 @@ id: 7ed0fe26-a236-435f-9f9f-f4a4eec86370
 blueprint: pages
 title: 'Side Projects'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1688216275
+updated_at: 1694469697
+meta_description: 'A few of my current side projects'
 ---
 ## Active
 
-### Veliance (<a href="https://veliance.dev" target="_blank">veliance.dev</a>)
+### <a href="https://veliance.dev" target="_blank">Veliance</a>
 
-A free to use directory (rebel alliance!) of great Laravel Freelancers
+A free to use directory of great Laravel Freelancers
 
-### SeQR (<a href="https://seqr.site/" target="_blank">SeQR.site</a>)
+### <a href="https://seqr.site/" target="_blank">SeQR</a>
 
 A low-cost, no-frills QR code management and analytics SaaS
 
 ## In Development
 
-### Spred (<a href="https://just-spred.com/" target="_blank">just-spred.com</a>)
+### <a href="https://just-spred.com/" target="_blank">Spred</a>
 
-Spred is attempting to use Open Banking to facilitate a newer, faster, more secure ways to send and receive money
+Spred is attempting to use Open Banking to facilitate newer, faster, more secure ways to send and receive money
 
-### Gold Tamarin (<a href="https://goldtamarin.com/" target="_blank">goldtamarin.com</a>)
+### <a href="https://goldtamarin.com/" target="_blank">Gold Tamarin</a>
 
 A new take on an email platform where recipients get paid. Privacy focused.
 

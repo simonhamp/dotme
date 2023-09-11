@@ -4,7 +4,8 @@ blueprint: pages
 title: 'What I Do'
 template: pages/show
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694426567
+updated_at: 1694469809
+meta_description: 'A little bit of detail about what exactly it is that I do'
 ---
 I'm a maker, an imagination-realiser. I turn ideas into code. **Beautiful code**.
 

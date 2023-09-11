@@ -3,8 +3,8 @@ id: a380b5ff-279a-4800-b622-71eb7a62100a
 blueprint: pages
 title: Ideas
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694430300
-meta_description: 'Just some silly, some not so silly, ideas for apps or SaaS tools that I have'
+updated_at: 1694470047
+meta_description: 'Just some silly - and not so silly -ideas for apps or SaaS tools that I have'
 ---
 Here's a growing list of things I'd love to work on / interesting problems I want to solve:
 

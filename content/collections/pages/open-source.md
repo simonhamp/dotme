@@ -3,7 +3,8 @@ id: 72d9e39a-e775-4a2f-92c1-a302639700c4
 blueprint: pages
 title: 'Open Source'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694464357
+updated_at: 1694469833
+meta_description: 'A brief intro to each of my open source projects'
 ---
 ## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
 
