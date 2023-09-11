@@ -3,7 +3,7 @@ id: 72d9e39a-e775-4a2f-92c1-a302639700c4
 blueprint: pages
 title: 'Open Source'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694435080
+updated_at: 1694464357
 ---
 ## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
 
@@ -20,6 +20,10 @@ A premium [Statamic](https://statamic.com) add-on that lets you manage your Stat
 ## 🆓 <a href="https://github.com/simonhamp/dotme" target="_blank">This site</a>
 
 You can see everything on this site over on GitHub: grab it, re-work it, do what you want. Just remember the content itself has a [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/), so if you choose to re-publish or-re-work it, you must afford others the same opportunity.
+
+## 🆓 <a href="https://github.com/simonhamp/dotme" target="_blank">Cronikl</a>
+
+Cronikl is a NativePHP app for macOS that lets you set up and run scheduled tasks. It's more accessible than `cron` and _way more_ accessible than `launchd`. It's partly a demonstration of NativePHP, but it's a neat little app in its own right.
 
 
 ### Contributions
