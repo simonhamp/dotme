@@ -1,16 +1,33 @@
+<h1>
+    Sometimes It Works
+</h1>
+
 <p>
-    I've published {{ collection:count in="articles" }} articles. The most recent article was published on
-    {{ collection:articles limit="1" }}
-        {{ date format="jS M 'y" }}
-    {{ /collection:articles }}
+    Writing somewhat aimlessly about my (mis)adventures in software engineering and life.
 </p>
 
 <p>
-    And I have {{ collection:count in="articles" status:is="draft" }} articles in draft. The most recent one of those was
-    created on
-    {{ collection:articles status:is="draft" limit="1" }}
-        {{ date format="jS M 'y" }}
-    {{ /collection:articles }}
+    <small>
+        Here are some useless stats:
+
+        I've published <strong>{{ collection:count in="articles" }} articles</strong>.
+
+        The most recent article was published on
+        <strong>
+            {{ collection:articles limit="1" }}
+                {{ date format="jS M 'y" }}
+            {{ /collection:articles }}
+        </strong>.<br>
+
+        And I have <strong>{{ collection:count in="articles" status:is="draft" }} articles in draft</strong>.
+
+        The most recent one of those was created on
+        <strong>
+            {{ collection:articles status:is="draft" limit="1" }}
+                {{ date format="jS M 'y" }}
+            {{ /collection:articles }}
+        </strong>.
+    </small>
 </p>
 
 {{ collection:articles limit="20" paginate="true" as="posts" }}
@@ -34,7 +51,7 @@
                         {{ if prev_page }}
                             <a href="{{ prev_page }}">&larr; Newer articles</a>
                         {{ else }}
-                            <span>&larr; Newer articles</span>
+                            <span>You're bang up to date! 💥</span>
                         {{ /if }}
                     </small>
                 </li>
@@ -46,7 +63,7 @@
                         {{ if next_page }}
                             <a href="{{ next_page }}">Older articles &rarr;</a>
                         {{ else }}
-                            <span>Older articles &rarr;</span>
+                            <span>Oh dear! You reached the end of time 😢</span>
                         {{ /if }}
                     </small>
                 </li>

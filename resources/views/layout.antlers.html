@@ -154,7 +154,7 @@
         {{ template_content }}
 
         <div style="margin-top:200px">
-            <p><small>#notadesigner&nbsp;&bull;&nbsp;Please don't &copy; me</small></p>
+            <p><small>#notadesigner&nbsp;&bull;&nbsp;#sometimesitworks</small></p>
 
             <ul class="unstyled flex">
                 {{ nav:footer }}
@@ -165,8 +165,16 @@
                             </a>
                         </small>
                     </li>
-                    {{ if ! last }}<li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>{{ /if }}
+                    <li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>
                 {{ /nav:footer }}
+                <li>
+                    <small>
+                        All content licensed
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" target="_blank">
+                            CC BY-SA 4.0
+                        </a>
+                    </small>
+                </li>
             </ul>
         </div>
 
