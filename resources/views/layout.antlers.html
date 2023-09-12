@@ -209,7 +209,12 @@
         <nav>
             <ul class="unstyled flex">
                 {{ nav:main include_home="true" }}
-                    <li><a href="{{ url }}">{{ title }}</a></li>
+                    <li>
+                        <a href="{{ url }}" {{ if is_external }}target="_blank" rel="{{ rel }} noopener noreferrer nofollow"{{ /if }}>
+                            {{ title }}
+                        </a>
+                    </li>
+                
                     {{ if ! last }}<li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>{{ /if }}
                 {{ /nav:main }}
             </ul>
@@ -225,7 +230,7 @@
                     {{ nav:footer }}
                         <li>
                             <small>
-                                <a href="{{ url }}" target="_blank" rel="{{ rel }} noopener noreferrer nofollow">
+                                <a href="{{ url }}" {{ if is_external }}target="_blank" rel="{{ rel }} noopener noreferrer nofollow"{{ /if }}>
                                     {{ title }}
                                 </a>
                             </small>
