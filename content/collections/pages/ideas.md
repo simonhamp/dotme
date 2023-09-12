@@ -3,7 +3,7 @@ id: a380b5ff-279a-4800-b622-71eb7a62100a
 blueprint: pages
 title: Ideas
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694470047
+updated_at: 1694521183
 meta_description: 'Just some silly - and not so silly -ideas for apps or SaaS tools that I have'
 ---
 Here's a growing list of things I'd love to work on / interesting problems I want to solve:
@@ -35,17 +35,17 @@ Here's a growing list of things I'd love to work on / interesting problems I wan
   Git is a complex but powerful tool, like Excel. Getting more folks to use it well feels valuable
   to the world at large
   
-- **Statamic email marketing add-on**
+- **Statamic email marketing add-on**  
   A Statamic add-on that supports creating, sending and reporting on your email campaigns. Use
   Statamic’s Bard to write rich, compliant emails and Laravel's tooling to communicate with the
   mail sending service of your choice
   
-- **Privacy-protecting physical address sharing**
+- **Privacy-protecting physical address sharing**  
   What if you didn't need to provide your delivery address at all to a vendor? How could it work so
   that your name and address didn't need to appear on the outer packaging in order for you to receive
   a parcel?
   
-- **Opt-in demo-based advertising platform**
+- **Opt-in demo-based advertising platform**  
   Sign up for an account, provide relevant details (age, location, interests, gender), install the
   browser extension and see ads every once in a while. Get paid for each ad you see/watch
   
