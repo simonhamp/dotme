@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1691140014
+updated_at: 1694685903
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 ---
@@ -26,9 +26,11 @@ I work with innovative [Clients](/clients), have a few of my own [Side Projects]
 
 <p>
     Friends:
-    <a href="https://noeliahamp.com/" target="_blank">Noelia Hamp</a>
+    <a href="https://noeliasantana.co.uk/" target="_blank">Noelia Santana</a>
     &nbsp;&bull;&nbsp;
-    <a href="http://www.falconsandallies.co.uk/" target="_blank">Falcons & Allies</a>
+    <a href="http://www.falconsandallies.co.uk/" target="_blank">David Baker</a>
+    &nbsp;&bull;&nbsp;
+  	<a href="https://andyhiggs.uk/" target="_blank">Andy Higgs</a>
     &nbsp;&bull;&nbsp;
     <a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>
 </p>
