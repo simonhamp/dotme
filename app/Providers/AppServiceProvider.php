@@ -2,11 +2,12 @@
 
 namespace App\Providers;
 
-use App\UrlPaginator;
+use App\CustomGenerator;
 use Illuminate\Support\ServiceProvider;
-use Statamic\Extensions\Pagination\LengthAwarePaginator;
-use Statamic\Facades\Entry;
+use Statamic\Facades\Markdown;
 use Statamic\StaticSite\Generator;
+use Statamic\StaticSite\Tasks;
+use Torchlight\Commonmark\V2\TorchlightExtension;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,6 +28,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Markdown::addExtension(function () {
+            return [new TorchlightExtension];
+        });
+
+        $this->app->singleton(Generator::class, function ($app) {
+            return new CustomGenerator($app, $app['files'], $app['router'], $app[Tasks::class]);
+        });
     }
 }
