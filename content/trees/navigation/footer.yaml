@@ -10,6 +10,14 @@ tree:
     title: GitHub
     url: 'https://github.com/simonhamp/'
   -
+    id: e7b4334d-bff1-407a-b2e4-8397ee10ba93
+    title: YouTube
+    url: 'https://www.youtube.com/simonhamp'
+  -
+    id: 8645fe42-b795-4452-82ac-686680918f72
+    title: Twitch
+    url: 'https://www.twitch.tv/simonhamp'
+  -
     id: 6f0bb3a9-c957-4b7d-b699-73b6dd0a341b
     title: LinkedIn
     url: 'https://linkedin.com/in/simonhamp/'

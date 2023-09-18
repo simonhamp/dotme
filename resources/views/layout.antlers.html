@@ -14,7 +14,7 @@
         <meta property="og:title" content="{{ meta_title or title }} :: simonhamp.me">
         <meta property="og:type" content="article" />
         <meta property="og:description" content="{{ social_description or meta_description or description }}">
-        <meta property="og:image" content="{{ site.permalink }}/assets/thumbnail.jpg">
+        <meta property="og:image" content="{{ opengraph_image or '{site.permalink}/assets/thumbnail.jpg' }}">
         <meta property="og:url" content="{{ current_url }}">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:creator" content="@simonhamp">
