@@ -239,21 +239,18 @@
                                 </a>
                             </small>
                         </li>
-                        <li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>
+                        {{ if ! last }}<li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>{{ /if }}
                     {{ /nav:footer }}
-                    <li>
-                        <small>
-                            All content licensed
-                            <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" target="_blank">
-                                CC BY-SA 4.0
-                            </a>
-                        </small>
-                    </li>
                 </ul>
             </nav>
 
             <p>
                 <small>
+                    All content licensed
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" target="_blank">
+                        CC BY-SA 4.0
+                    </a>
+                    &nbsp;&bull;&nbsp;
                     Code highlighting by
                     <a href="https://torchlight.dev/" rel="noopener noreferrer" target="_blank">
                         Torchlight
