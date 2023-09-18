@@ -26,6 +26,10 @@ tree:
     title: Twitter
     url: 'https://twitter.com/simonhamp'
   -
+    id: 1173a73d-68d7-4daf-87ec-fd013619e167
+    title: RSS
+    url: /blog/feed.xml
+  -
     id: 308ff02f-6ba5-4912-aa80-3d0ec33da8a8
     entry: 1f1ec16a-a51e-42db-b0e5-da6bf13c0e8f
   -
