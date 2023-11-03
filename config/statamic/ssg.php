@@ -45,6 +45,7 @@ return [
         public_path('favicon.png') => 'favicon.png',
         public_path('robots.txt') => 'robots.txt',
         public_path('keybase.txt') => 'keybase.txt',
+        base_path('routes/_redirects') => '_redirects',
     ],
 
     'symlinks' => [
