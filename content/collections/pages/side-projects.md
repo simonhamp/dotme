@@ -3,10 +3,14 @@ id: 7ed0fe26-a236-435f-9f9f-f4a4eec86370
 blueprint: pages
 title: 'Side Projects'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694469697
-meta_description: 'A few of my current side projects'
+updated_at: 1699967875
+meta_description: 'A few of my side projects'
 ---
 ## Active
+
+### <a href="https://laradir.com" target="_blank">Veliance</a>
+
+Connecting the best Laravel Developers with the best Laravel Teams
 
 ### <a href="https://veliance.dev" target="_blank">Veliance</a>
 
