@@ -3,12 +3,16 @@ id: 72d9e39a-e775-4a2f-92c1-a302639700c4
 blueprint: pages
 title: 'Open Source'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694469833
+updated_at: 1705922408
 meta_description: 'A brief intro to each of my open source projects'
 ---
 ## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
 
 NativePHP is a new way to build native apps using the tools you already know and love: Laravel, HTML, CSS and JavaScript on top of Electron or Tauri.
+
+## 🆓 <a href="https://github.com/simonhamp/the-og" target="_blank">The OG</a>
+
+The OG is an image generator written in pure PHP, ideally suited to generating OpenGraph images for your pages, blog posts, product listings and more. Make your content look great on social media for free!
 
 ## 🆓 <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
 
