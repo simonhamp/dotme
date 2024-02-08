@@ -3,9 +3,10 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694685903
+updated_at: 1707403369
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
+meta_description: 'I help businesses of all sizes realise new revenue streams, efficiency improvements and growth through digital products.'
 ---
 <script>
     setInterval(function() {
@@ -14,23 +15,18 @@ custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
     }, 1000);
 </script>
 
-<p>
-  	London / Las Palmas-based freelance software engineer. I'm one of those nutcases that loves PHP, and have done for almost 20 years. I'm also a huge Laravel fan and have been using it for almost 10 years - I'm dangerous.
-</p>
+London / Las Palmas-based freelance software engineer. I've been building digital products for businesses of all sizes for almost 20 years. For details on how I do that, read more about [what I do](/what-i-do).
 
 I work with innovative [Clients](/clients), have a few of my own [Side Projects](/side-projects) and sponsor and contribute to various [Open Source](/open-source) projects.
 
-<p>
-    I was Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>, where I worked for almost 6 years innovating in the #FemTech space.
-</p>
+I was Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>, where I worked for almost 6 years innovating in the #FemTech space.
 
-<p>
-    Friends:
-    <a href="https://noeliasantana.co.uk/" target="_blank">Noelia Santana</a>
-    &nbsp;&bull;&nbsp;
-    <a href="http://www.falconsandallies.co.uk/" target="_blank">David Baker</a>
-    &nbsp;&bull;&nbsp;
-  	<a href="https://andyhiggs.uk/" target="_blank">Andy Higgs</a>
-    &nbsp;&bull;&nbsp;
-    <a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>
-</p>
+
+Friends:
+<a href="https://noeliasantana.co.uk/" target="_blank">Noelia Santana</a>
+&nbsp;&bull;&nbsp;
+<a href="http://www.falconsandallies.co.uk/" target="_blank">David Baker</a>
+&nbsp;&bull;&nbsp;
+<a href="https://andyhiggs.uk/" target="_blank">Andy Higgs</a>
+&nbsp;&bull;&nbsp;
+<a href="https://www.intrepidws.com/" target="_blank">Craig Anderson</a>

@@ -3,7 +3,7 @@ id: 72d9e39a-e775-4a2f-92c1-a302639700c4
 blueprint: pages
 title: 'Open Source'
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1705922408
+updated_at: 1707403344
 meta_description: 'A brief intro to each of my open source projects'
 ---
 ## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
@@ -42,4 +42,4 @@ I try to contribute features and fixes to various open source projects that I us
 
 Please support my work by <a href="https://github.com/sponsors/simonhamp" target="_blank">sponsoring me on GitHub</a>.
   
-My current goal is to reach _just_ $100/month
+My current goal is to reach $1,000/month
