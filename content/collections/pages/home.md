@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1707403369
+updated_at: 1708189383
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 meta_description: 'I help businesses of all sizes realise new revenue streams, efficiency improvements and growth through digital products.'
@@ -24,6 +24,8 @@ I was Head of Software Engineering at <a href="https://www.elvie.com" target="_b
 
 Friends:
 <a href="https://noeliasantana.co.uk/" target="_blank">Noelia Santana</a>
+&nbsp;&bull;&nbsp;
+<a href="http://www.1by1.co.uk/" target="_blank">Ben Levy</a>
 &nbsp;&bull;&nbsp;
 <a href="http://www.falconsandallies.co.uk/" target="_blank">David Baker</a>
 &nbsp;&bull;&nbsp;
