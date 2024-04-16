@@ -17,6 +17,28 @@ tabs:
             field:
               type: markdown
               localizable: true
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              restrict: false
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - quote
+                - link
+                - image
+                - table
+              automatic_line_breaks: true
+              automatic_links: false
+              escape_markup: false
+              heading_anchors: false
+              smartypants: false
+              table_of_contents: false
+              antlers: true
+              hide_display: false
           -
             handle: template
             field:
@@ -70,7 +92,6 @@ tabs:
               antlers: false
               type: textarea
               display: 'Meta Description'
-              icon: textarea
               listable: hidden
               instructions_position: above
               visibility: visible

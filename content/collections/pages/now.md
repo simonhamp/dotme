@@ -5,11 +5,12 @@ title: Now
 meta_title: "What I'm up to now"
 meta_description: "This is my 'now' page"
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1694600782
+updated_at: 1713270501
+parent: c69f163c-f6ee-4149-9870-ea98570534a8
 ---
 This is my [now](https://nownownow.com/) page.
 
-It's 2023. I'm married to the wonderful [Noelia](https://noeliasantana.com). We're living in Gran Canaria with our 3-year-old mixed Perro Majorero, Bowie 🐕.
+It's {{ now | format('F Y') }}. I'm married to the wonderful [Noelia](https://noeliasantana.com). We're living in Gran Canaria with our 3-year-old mixed Perro Majorero, Bowie 🐕.
 
 I'm doing lots of things (maybe too many!)
 
