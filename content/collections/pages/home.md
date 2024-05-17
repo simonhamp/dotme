@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1715948749
+updated_at: 1715950022
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 meta_description: "I'm a Laravel fanboy. I run Laradir for the community and I'm building NativePHP"
@@ -41,6 +41,6 @@ I was Head of Software Engineering at <a href="https://www.elvie.com" target="_b
 <div style="margin-top: 4rem">
   My open source work continues thanks to my awesome <a href="https://github.com/sponsors/simonhamp" targe="_blank">sponsors:</a><br>
   <ul>
-    <li><a href="https://github.com/quantumwebco" target="_blank">quantumweb</a></li>
+    <li><a href="https://quantumweb.co" target="_blank">quantumweb</a></li>
   </ul
 </div>
