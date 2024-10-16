@@ -39,6 +39,7 @@ return [
     */
 
     'copy' => [
+        public_path('.well-known') => '.well-known',
         public_path('css') => 'css',
         public_path('js') => 'js',
         public_path('assets') => 'assets',
