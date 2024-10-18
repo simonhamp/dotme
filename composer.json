@@ -10,11 +10,11 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.0",
-        "laravel/framework": "^10.0",
+        "laravel/framework": "^11.0",
         "laravel/tinker": "^2.0",
         "league/html-to-markdown": "^5.1",
-        "statamic/cms": "^4.0",
-        "statamic/ssg": "^2.0",
+        "statamic/cms": "^5.0",
+        "statamic/ssg": "^3.0",
         "torchlight/torchlight-commonmark": "^0.5.5"
     },
     "require-dev": {
@@ -22,7 +22,7 @@
         "mockery/mockery": "^1.5",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.0",
-        "simonhamp/gitamic": "^2.2",
+        "simonhamp/gitamic": "dev-main",
         "spatie/laravel-ignition": "^2.0"
     },
     "config": {
@@ -54,8 +54,8 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://gitamic.composer.sh"
+            "type": "path",
+            "url": "../gitamic/"
         }
     ],
     "prefer-stable": true,
