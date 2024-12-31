@@ -31,9 +31,5 @@ class AppServiceProvider extends ServiceProvider
         Markdown::addExtension(function () {
             return [new TorchlightExtension];
         });
-
-        $this->app->singleton(Generator::class, function ($app) {
-            return new CustomGenerator($app, $app['files'], $app['router'], $app[Tasks::class]);
-        });
     }
 }

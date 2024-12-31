@@ -31,17 +31,25 @@
 </p>
 
 {{ collection:articles limit="20" paginate="true" as="posts" }}
-    {{ posts }}
-        <ul class="unstyled">
+    <ul class="grid gap-8 my-8">
+        {{ posts }}
             <li>
-                <a href="{{ url }}">{{ title }}</a><br>
-                <small>
-                    <span title="Publish date">{{ date format="jS M 'y" }}</span>
-                    &bull;
-                    <span title="Reading time">{{ content | read_time:260 }} mins</span></small>
+                <h2 class="text-3xl">
+                    <a href="{{ url }}">{{ title }}</a>
+
+                    <small>
+                        <span title="Publish date">{{ date format="jS M 'y" }}</span>
+                        &bull;
+                        <span title="Reading time">{{ content | read_time:260 }} mins</span>
+                    </small>
+                </h2>
+                <p class="">
+                    {{ content | markdown | strip_tags | raw | safe_truncate(200, '...') }}
+                </p>
+                <a href="{{ url }}">Read &rightarrow;</a>
             </li>
-        </ul>
-    {{ /posts }}
+        {{ /posts }}
+    </ul>
 
     {{ paginate }}
         {{ if prev_page || next_page }}

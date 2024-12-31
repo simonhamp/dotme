@@ -25,7 +25,7 @@ Spred was an attempt to use Open Banking to facilitate newer, faster, more secur
 
 This was a new take on an email platform where the email _recipients_ would get paid. Privacy focused.
 
-This project never made it pas the waitlist stage.
+This project never made it past the waitlist stage.
 
 The Golden Lion Tamarin is a small and beautiful, but sadly endangered, little monkey. I hope Gold Tamarin lets me sponsor efforts to protect these vibrant creatures.
 
