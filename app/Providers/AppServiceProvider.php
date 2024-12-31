@@ -2,11 +2,8 @@
 
 namespace App\Providers;
 
-use App\CustomGenerator;
 use Illuminate\Support\ServiceProvider;
 use Statamic\Facades\Markdown;
-use Statamic\StaticSite\Generator;
-use Statamic\StaticSite\Tasks;
 use Torchlight\Commonmark\V2\TorchlightExtension;
 
 class AppServiceProvider extends ServiceProvider
