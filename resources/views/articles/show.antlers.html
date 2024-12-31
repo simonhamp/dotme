@@ -1,9 +1,12 @@
 <article>
-    <header>
+    <header class="mb-8">
         <h1>{{ title }}</h1>
-        <span title="Publish date">{{ date format="jS M 'y" }}</span>
-        &bull;
-        <span title="Reading time">{{ content | read_time:260 }} of your Earth minutes</span></small>
+
+        <p class="flex gap-2">
+            <span title="Publish date">{{ date format="jS M 'y" }}</span>
+            &bull;
+            <span title="Reading time">{{ content | read_time:260 }} of your Earth minutes</span></small>
+        </p>
 
         {{ if original === 'medium' }}
             <aside>
@@ -12,5 +15,8 @@
             </aside>
         {{ /if }}
     </header>
-    {{ content }}
+
+    <div class="prose-2xl prose-ul:list-disc">
+        {{ content }}
+    </div>
 </article>
