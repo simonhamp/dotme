@@ -3,10 +3,10 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1715950022
+updated_at: 1735666727
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
-meta_description: "I'm a Laravel fanboy. I run Laradir for the community and I'm building NativePHP"
+meta_description: "I'm a Laravel fanboy. I run Laradevs for the community and I'm building NativePHP"
 ---
 <script>
     setInterval(function() {
@@ -19,7 +19,7 @@ London / Las Palmas-based freelance software engineer. I've been building digita
 
 I work with innovative [Clients](/clients), have a few of my own [Side Projects](/side-projects) and sponsor and contribute to various [Open Source](/open-source) projects.
 
-I was Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>, where I worked for almost 6 years innovating in the #FemTech space.
+Previously, Head of Software Engineering at <a href="https://www.elvie.com" target="_blank">Elvie</a>.
 
 
 <div>
