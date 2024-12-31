@@ -43,23 +43,23 @@
                         <span title="Reading time">{{ content | read_time:260 }} mins</span>
                     </small>
                 </h2>
-                <p class="">
-                    {{ content | markdown | strip_tags | raw | safe_truncate(200, '...') }}
+                <p>
+                    {{ content | raw | markdown | strip_tags | safe_truncate(200, '...') }}<br>
+                    <a href="{{ url }}">Read &rightarrow;</a>
                 </p>
-                <a href="{{ url }}">Read &rightarrow;</a>
             </li>
         {{ /posts }}
     </ul>
 
     {{ paginate }}
         {{ if prev_page || next_page }}
-            <ul class="unstyled flex">
+            <ul class="unstyled flex gap-2">
                 <li>
                     <small>
                         {{ if prev_page }}
                             <a href="{{ prev_page }}">&larr; Newer articles</a>
                         {{ else }}
-                            <span>You're bang up to date! 💥</span>
+                            <span>💥 You're bang up to date!</span>
                         {{ /if }}
                     </small>
                 </li>
