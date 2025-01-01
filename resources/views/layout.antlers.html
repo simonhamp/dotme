@@ -42,7 +42,7 @@
             <p><small>#notadesigner&nbsp;&bull;&nbsp;#sometimesitworks</small></p>
 
             <nav>
-                <ul class="unstyled flex">
+                <ul class="flex flex-wrap gap-2">
                     {{ nav:footer }}
                         <li>
                             <small>
@@ -51,7 +51,7 @@
                                 </a>
                             </small>
                         </li>
-                        {{ if ! last }}<li class="hidden lg:block">&nbsp;&bull;&nbsp;</li>{{ /if }}
+                        {{ if ! last }}<li>&nbsp;&bull;&nbsp;</li>{{ /if }}
                     {{ /nav:footer }}
                 </ul>
             </nav>
