@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1735666727
+updated_at: 1736697564
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 meta_description: "I'm a Laravel fanboy. I run Laradevs for the community and I'm building NativePHP"
@@ -40,7 +40,14 @@ Previously, Head of Software Engineering at <a href="https://www.elvie.com" targ
 
 <div style="margin-top: 4rem">
   My open source work continues thanks to my awesome <a href="https://github.com/sponsors/simonhamp" targe="_blank">sponsors:</a><br>
-  <ul>
+  <ul class="flex gap-4 flex-wrap">
     <li><a href="https://quantumweb.co" target="_blank">quantumweb</a></li>
-  </ul
+	<li><a href="https://x.com/livewirelogan" target="_blank">Logan Craft</a></li>
+	<li><a href="https://x.com/AbdelElrafa" target="_blank">Abdel Elrafa</a></li>
+    <li><a href="https://x.com/TomaszLotocki" target="_blank">Tomasz Lotocki</a></li>
+    <li><a href="https://github.com/MFFunmaker" target="_blank">Isaac Borup</a></li>
+    <li><a href="https://github.com/jadden" target="_blank">Jadden</a></li>
+    <li><a href="https://github.com/YesImAaron" target="_blank">YesImAaron</a></li>
+    <li><a href="https://github.com/theoreaves" target="_blank">theoreaves</a></li>
+  </ul>
 </div>
