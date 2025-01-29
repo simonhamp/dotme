@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1737375260
+updated_at: 1738148989
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 meta_description: "I'm a Laravel fanboy. I run Laradevs for the community and I'm building NativePHP"
@@ -39,12 +39,12 @@ Previously, Head of Software Engineering at <a href="https://www.elvie.com" targ
 
 
 <div style="margin-top: 4rem">
-  My open source work continues thanks to my awesome <a href="https://github.com/sponsors/simonhamp" targe="_blank">sponsors 🙏:</a><br>
+  My open source work continues thanks to my awesome <a href="https://github.com/sponsors/simonhamp" target="_blank">sponsors 🙏:</a><br>
   <ul class="flex gap-4 flex-wrap">
     <li><a href="https://quantumweb.co" target="_blank">quantumweb</a></li>
-	<li><a href="https://x.com/livewirelogan" target="_blank">Logan Craft</a></li>
-	<li><a href="https://x.com/AbdelElrafa" target="_blank">Abdel Elrafa</a></li>
-    <li><a href="https://x.com/TomaszLotocki" target="_blank">Tomasz Lotocki</a></li>
+	<li><a href="https://github.com/craftlogan" target="_blank">Logan Craft</a></li>
+	<li><a href="https://github.com.com/AbdelElrafa" target="_blank">Abdel Elrafa</a></li>
+    <li><a href="https://github.com/aurawindsurfing" target="_blank">Tomasz Lotocki</a></li>
     <li><a href="https://github.com/MFFunmaker" target="_blank">Isaac Borup</a></li>
     <li><a href="https://github.com/jadden" target="_blank">Jadden</a></li>
     <li><a href="https://github.com/YesImAaron" target="_blank">YesImAaron</a></li>
@@ -52,5 +52,10 @@ Previously, Head of Software Engineering at <a href="https://www.elvie.com" targ
     <li><a href="https://github.com/joelwmale" target="_blank">joelwmale</a></li>
     <li><a href="https://github.com/dylanmichaelryan" target="_blank">dylanmichaelryan</a></li>
     <li><a href="https://github.com/koernchen02" target="_blank">koernchen02</a></li>
+    <li><a href="https://github.com/CoopExchange" target="_blank">CoopExchange</a></li>
+    <li><a href="https://github.com/wonderne" target="_blank">wonderne</a></li>
+    <li><a href="https://github.com/prof-anderson-trindade" target="_blank">prof-anderson-trindade</a></li>
+    <li><a href="https://github.com/mhmtechgroup" target="_blank">mhmtechgroup</a></li>
+    <li><a href="https://github.com/GuavaCZ" target="_blank">GuavaCZ</a></li>
   </ul>
 </div>
