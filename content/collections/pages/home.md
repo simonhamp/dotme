@@ -3,7 +3,7 @@ id: c69f163c-f6ee-4149-9870-ea98570534a8
 blueprint: pages
 title: Home
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
-updated_at: 1738148989
+updated_at: 1738403337
 meta_title: 'London / Las Palmas-based Software Engineer, Simon Hamp'
 custom_title: 'Hi, I''m Simon <span id="emoji">🐵</span>'
 meta_description: "I'm a Laravel fanboy. I run Laradevs for the community and I'm building NativePHP"
@@ -57,5 +57,8 @@ Previously, Head of Software Engineering at <a href="https://www.elvie.com" targ
     <li><a href="https://github.com/prof-anderson-trindade" target="_blank">prof-anderson-trindade</a></li>
     <li><a href="https://github.com/mhmtechgroup" target="_blank">mhmtechgroup</a></li>
     <li><a href="https://github.com/GuavaCZ" target="_blank">GuavaCZ</a></li>
+    <li><a href="https://github.com/artisan-build">Artisan Build</a></li>
+    <li><a href="https://github.com/mechawrench">mechawrench</a></li>
+    <li><a href="https://github.com/harmonicdata">harmonicdata</a></li>
   </ul>
 </div>
