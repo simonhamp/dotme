@@ -1,0 +1,89 @@
+<!-- What I Do / About Template -->
+<main class="relative pt-24 pb-20 min-h-screen">
+    <section class="max-w-7xl mx-auto px-6 py-12 md:py-20">
+        <!-- Hero Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
+            <!-- Left: Identity & Links -->
+            <div class="lg:col-span-4 space-y-8">
+                <div class="bg-surface-container-low p-8 space-y-6">
+                    <div class="flex items-center gap-3 text-secondary font-label text-xs uppercase tracking-[0.2em] font-bold">
+                        <span class="w-8 h-[1px] bg-secondary"></span>
+                        Engineer & Technical Curator
+                    </div>
+                    <h1 class="font-headline text-4xl font-extrabold tracking-tighter text-on-surface leading-tight">
+                        {{ title }}
+                    </h1>
+                    <p class="font-headline text-lg font-bold text-on-surface">Simon Hamp</p>
+                    <p class="text-sm text-on-surface-variant">London / Las Palmas-based freelance software engineer</p>
+                    <div class="pt-4 flex gap-4">
+                        <a class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:text-primary transition-colors" href="https://github.com/simonhamp" target="_blank">
+                            <span class="material-symbols-outlined text-[20px]">terminal</span>
+                        </a>
+                        <a class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:text-primary transition-colors" href="https://bsky.app/profile/simonhamp.me" target="_blank">
+                            <span class="material-symbols-outlined text-[20px]">alternate_email</span>
+                        </a>
+                        <a class="w-10 h-10 flex items-center justify-center bg-surface-container-high hover:text-primary transition-colors" href="https://linkedin.com/in/simonhamp/" target="_blank">
+                            <span class="material-symbols-outlined text-[20px]">share</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Skills / Focus Areas -->
+                <div class="space-y-6">
+                    <h3 class="font-label text-xs uppercase tracking-widest font-bold text-stone-400">Core Focus</h3>
+                    <div class="space-y-4">
+                        <div class="bg-surface-container p-5 border-l-4 border-primary">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="material-symbols-outlined text-primary">code</span>
+                                <h4 class="font-headline font-bold text-on-surface">Full-Stack Development</h4>
+                            </div>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">PHP, Laravel, Tailwind, Vue, Livewire, Alpine.js</p>
+                        </div>
+                        <div class="bg-surface-container p-5 border-l-4 border-secondary">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="material-symbols-outlined text-secondary">devices</span>
+                                <h4 class="font-headline font-bold text-on-surface">Desktop & Mobile Apps</h4>
+                            </div>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">Native applications via <a href="https://nativephp.com" target="_blank" class="text-primary font-semibold hover:text-secondary transition-colors">NativePHP</a></p>
+                        </div>
+                        <div class="bg-surface-container p-5 border-l-4 border-primary/50">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="material-symbols-outlined text-primary/70">groups</span>
+                                <h4 class="font-headline font-bold text-on-surface">Team Leadership</h4>
+                            </div>
+                            <p class="text-sm text-on-surface-variant leading-relaxed">Mentoring, process design, developer happiness</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Editorial Content -->
+            <div class="lg:col-span-8 space-y-12">
+                <div class="prose prose-lg max-w-none font-body text-on-surface-variant leading-relaxed prose-headings:font-headline prose-headings:tracking-tight prose-strong:text-on-surface prose-a:text-primary prose-a:font-bold hover:prose-a:text-secondary prose-p:text-lg prose-p:leading-relaxed">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Articles Feed -->
+        {{ collection:articles limit="6" as="posts" }}
+        <div class="mt-24 pt-20 border-t border-stone-200/50">
+            <div class="flex items-center justify-between border-b border-surface-container-highest pb-4 mb-12">
+                <h2 class="font-headline text-2xl font-extrabold tracking-tight">Recent Writing</h2>
+                <a class="font-label text-stone-400 hover:text-primary transition-colors text-xs uppercase tracking-widest" href="/blog">View all articles</a>
+            </div>
+            <div class="space-y-12">
+                {{ posts }}
+                <a href="{{ url }}" class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-12 group cursor-pointer block no-underline">
+                    <span class="font-label text-stone-400 text-xs uppercase tracking-widest w-24 shrink-0">{{ date format="M Y" }}</span>
+                    <div class="flex-1">
+                        <h4 class="font-headline text-2xl font-bold group-hover:text-primary transition-colors mb-2 text-on-surface">{{ title }}</h4>
+                        <p class="text-on-surface-variant leading-relaxed max-w-3xl">{{ content | raw | markdown | strip_tags | safe_truncate(160, '...') }}</p>
+                    </div>
+                </a>
+                {{ /posts }}
+            </div>
+        </div>
+        {{ /collection:articles }}
+    </section>
+</main>

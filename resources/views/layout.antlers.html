@@ -3,87 +3,89 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{{ meta_title or title }}</title>
+        <title>{{ meta_title or title }} :: simonhamp.me</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="{{ meta_description or description }}">
-        <link href="https://fonts.googleapis.com/css?family=Dosis:400,600,900" rel="stylesheet">
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="{{ site.permalink }}/favicon.png" />
-        <link rel="alternate" type="application/rss+xml" title="Simon's RSS feed" href="{{ site.permalink }}/blog/feed.xml" />
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="{{ site.permalink }}/favicon.png">
+        <link rel="alternate" type="application/rss+xml" title="Simon's RSS feed" href="{{ site.permalink }}/blog/feed.xml">
         <meta property="og:title" content="{{ meta_title or title }} :: simonhamp.me">
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="article">
         <meta property="og:description" content="{{ social_description or meta_description or description }}">
         <meta property="og:image" content="{{ opengraph_image or '{site.permalink}/assets/thumbnail.jpg' }}">
         <meta property="og:url" content="{{ current_url }}">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:creator" content="@simonhamp">
-        <meta name="follow.it-verification-code" content="3RT4p66lSy6D1Kydp4hZ"/>
+        <meta name="follow.it-verification-code" content="3RT4p66lSy6D1Kydp4hZ">
         {{ vite src="resources/js/app.js|resources/css/app.css" }}
     </head>
-    <body class="font-sans leading-loose">
-        <nav class="mb-8">
-            <ul class="unstyled flex-wrap flex gap-2">
-                {{ nav:main include_home="true" }}
-                    <li>
-                        <a href="{{ url }}" {{ if is_external }}target="_blank" rel="{{ rel }} noopener noreferrer nofollow"{{ /if }}>
-                            {{ title }}
-                        </a>
-                    </li>
-
-                    {{ if ! last }}<li>&nbsp;&bull;&nbsp;</li>{{ /if }}
-                {{ /nav:main }}
-            </ul>
+    <body class="bg-background text-on-surface font-body">
+        <!-- TopNavBar -->
+        <nav class="fixed top-0 w-full z-50 shadow-sm shadow-stone-200/50 backdrop-blur-md transition-colors duration-300" :class="open ? 'bg-[#fff8f1]' : 'bg-[#fff8f1]/80'" x-data="{ open: false }">
+            <div class="flex justify-between items-center max-w-7xl mx-auto px-6 py-4">
+                <a href="/" class="text-xl font-bold tracking-tighter text-primary font-headline">SimonH</a>
+                <!-- Desktop Nav -->
+                <div class="hidden md:flex items-center gap-8 font-headline text-sm tracking-tight font-medium">
+                    {{ nav:main include_home="true" }}
+                        {{ if is_external }}
+                            <a class="text-stone-600 hover:text-primary transition-colors" href="{{ url }}" target="_blank" rel="{{ rel }} noopener noreferrer nofollow">{{ title }}</a>
+                        {{ else }}
+                            <a class="{{ if is_current }}text-secondary font-bold border-b-2 border-secondary pb-1{{ else }}text-stone-600 hover:text-primary transition-colors{{ /if }}" href="{{ url }}">{{ title }}</a>
+                        {{ /if }}
+                    {{ /nav:main }}
+                </div>
+                <div class="flex items-center gap-4">
+                    <!-- Mobile menu toggle -->
+                    <button class="md:hidden text-primary" @click="open = !open" aria-label="Toggle menu">
+                        <span class="material-symbols-outlined" x-text="open ? 'close' : 'menu'">menu</span>
+                    </button>
+                    <!-- RSS button -->
+                    <a href="/blog/feed.xml" class="text-primary hover:text-secondary transition-colors">
+                        <span class="material-symbols-outlined">rss_feed</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Mobile Nav -->
+            <div class="md:hidden overflow-hidden transition-all duration-300 ease-in-out"
+                 x-bind:style="open ? 'max-height: ' + $refs.mobileMenu.scrollHeight + 'px' : 'max-height: 0'"
+            >
+                <div x-ref="mobileMenu" class="max-w-7xl mx-auto px-6 pb-6 flex flex-col gap-4 font-headline text-sm tracking-tight font-medium border-t border-surface-container-highest pt-4">
+                    {{ nav:main include_home="true" }}
+                        {{ if is_external }}
+                            <a class="text-stone-600 hover:text-primary transition-colors py-1" href="{{ url }}" target="_blank" rel="{{ rel }} noopener noreferrer nofollow" @click="open = false">{{ title }}</a>
+                        {{ else }}
+                            <a class="{{ if is_current }}text-secondary font-bold{{ else }}text-stone-600 hover:text-primary transition-colors{{ /if }} py-1" href="{{ url }}" @click="open = false">{{ title }}</a>
+                        {{ /if }}
+                    {{ /nav:main }}
+                </div>
+            </div>
         </nav>
 
         {{ template_content }}
 
-        <div class="lg:mt-64">
-            <p><small>#notadesigner&nbsp;&bull;&nbsp;#sometimesitworks</small></p>
-
-            <nav>
-                <ul class="flex flex-wrap gap-2">
+        <!-- Footer -->
+        <footer class="w-full mt-20 pb-12 bg-[#fff8f1] border-t border-stone-200/30">
+            <div class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="space-y-2 text-center md:text-left">
+                    <span class="text-lg font-black text-stone-900 font-headline">SimonH</span>
+                    <p class="font-label text-xs uppercase tracking-widest text-stone-500">
+                        All content licensed
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" target="_blank" class="hover:text-secondary transition-colors">CC BY-SA 4.0</a>
+                    </p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-8 font-label text-xs uppercase tracking-widest">
                     {{ nav:footer }}
-                        <li>
-                            <small>
-                                <a href="{{ url }}" {{ if is_external }}target="_blank" rel="{{ rel }} noopener noreferrer nofollow"{{ /if }}>
-                                    {{ title }}
-                                </a>
-                            </small>
-                        </li>
-                        {{ if ! last }}<li>&nbsp;&bull;&nbsp;</li>{{ /if }}
+                        <a class="text-stone-400 hover:text-secondary transition-colors" href="{{ url }}" {{ if is_external }}target="_blank" rel="{{ rel }} noopener noreferrer nofollow"{{ /if }}>{{ title }}</a>
                     {{ /nav:footer }}
-                </ul>
-            </nav>
-
-            <p>
-                <small>
-                    All content licensed
-                    <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" target="_blank">
-                        CC BY-SA 4.0
-                    </a>
-                    &nbsp;&bull;&nbsp;
-                    Code highlighting by
-                    <a href="https://torchlight.dev/" rel="noopener noreferrer" target="_blank">
-                        Torchlight
-                    </a>
-                </small>
-            </p>
-        </div>
-
-        <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-        <script>
-            Calendly.initBadgeWidget({
-                url: 'https://calendly.com/simonhamp',
-                text: "I'm open for work",
-                color: '#F0544F',
-                textColor: '#FDF0D5',
-                branding: false
-            });
-        </script>
-
-        <!-- https://coolors.co/f4e8c1-76597b-70a0af-5386e4-4c4b63 -->
-        <!-- https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5 -->
+                </div>
+            </div>
+        </footer>
 
         {{ if environment === 'production' }}
             <!-- Fathom - beautiful, simple website analytics -->
