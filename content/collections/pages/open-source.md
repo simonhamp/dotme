@@ -7,27 +7,27 @@ updated_at: 1713277096
 meta_description: 'A brief intro to each of my open source projects'
 parent: c69f163c-f6ee-4149-9870-ea98570534a8
 ---
-## 🆓 <a href="https://nativephp.com/" target="_blank">NativePHP</a>
+## <a href="https://nativephp.com/" target="_blank">NativePHP</a>
 
-NativePHP is a new way to build native apps using the tools you already know and love: Laravel, HTML, CSS and JavaScript on top of Electron or Tauri.
+NativePHP is a new way to build native desktop and mobile apps using the tools you already know and love: Laravel, HTML, CSS and JavaScript.
 
-## 🆓 <a href="https://github.com/simonhamp/the-og" target="_blank">The OG</a>
+## <a href="https://github.com/simonhamp/the-og" target="_blank">The OG</a>
 
 The OG is an image generator written in pure PHP, ideally suited to generating OpenGraph images for your pages, blog posts, product listings and more. Make your content look great on social media for free!
 
-## 🆓 <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
+## <a href="https://github.com/simonhamp/laravel-nova-csv-import" target="_blank">Laravel Nova CSV Import</a>
 
 A fully-fledged CSV and Excel import tool for [Laravel Nova](https://nova.laravel.com). Built on top of the excellent [Laravel Excel](https://laravel-excel.com).
 
-## 💰 <a href="https://gitamic.simonhamp.me/" target="_blank">Gitamic</a>
+## <a href="https://gitamic.simonhamp.me/" target="_blank">Gitamic</a>
 
 A premium [Statamic](https://statamic.com) add-on that lets you manage your Statamic site's Git repository from your CP.
 
-## 🆓 <a href="https://github.com/simonhamp/dotme" target="_blank">This site</a>
+## <a href="https://github.com/simonhamp/dotme" target="_blank">This site</a>
 
 You can see everything on this site over on GitHub: grab it, re-work it, do what you want. Just remember the content itself has a [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/), so if you choose to re-publish or-re-work it, you must afford others the same opportunity.
 
-## 🆓 <a href="https://github.com/simonhamp/cronikl" target="_blank">Cronikl</a>
+## <a href="https://github.com/simonhamp/cronikl" target="_blank">Cronikl</a>
 
 Cronikl is a NativePHP app for macOS that lets you set up and run scheduled tasks. It's more accessible than `cron` and _way more_ accessible than `launchd`. It's partly a demonstration of NativePHP, but it's a neat little app in its own right.
 

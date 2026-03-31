@@ -2,7 +2,7 @@
 id: e9376bab-466d-48a9-b05e-ee9de50c5100
 blueprint: pages
 title: 'What I Do'
-template: pages/show
+template: pages/what-i-do
 updated_by: 104b2029-6d10-4bee-9cce-a70842d2f673
 updated_at: 1694469809
 meta_description: 'A little bit of detail about what exactly it is that I do'
@@ -29,4 +29,4 @@ I'm here to prove to you that you don't need millions in funding to get there. *
 
 It doesn't cost the earth to reap the benefits of a top-tier digital team, to build a digital strategy and execute on the vision.
 
-Let's start today! <a href="javascript:Calendly.initPopupWidget({url: 'https://calendly.com/simonhamp/chat'})">Book a free chat with me</a> and let's talk about the problems you're trying to solve.
+Let's start today! Let's talk about the problems you're trying to solve.

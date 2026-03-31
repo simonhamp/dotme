@@ -1,22 +1,70 @@
-<article>
-    <header class="mb-8">
-        <h1>{{ title }}</h1>
+<!-- Blog Article Template -->
+<main class="relative pt-32 pb-24 overflow-hidden">
+    <article class="relative max-w-4xl mx-auto px-6">
+        <!-- Breadcrumbs & Meta -->
+        <div class="flex flex-wrap items-center gap-4 mb-8 font-label text-xs tracking-widest uppercase text-outline">
+            <a href="/blog" class="flex items-center gap-1 hover:text-primary transition-colors">
+                <span class="material-symbols-outlined text-[14px]">home</span>
+                Blog
+            </a>
+            <span class="w-1 h-1 bg-outline rounded-full"></span>
+            <span class="text-secondary font-bold">{{ tags }}{{ title }}{{ /tags }}</span>
+        </div>
 
-        <p class="flex gap-2">
-            <span title="Publish date">{{ date format="jS M 'y" }}</span>
-            &bull;
-            <span title="Reading time">{{ content | read_time:260 }} of your Earth minutes</span></small>
-        </p>
+        <!-- Headline -->
+        <header class="mb-16">
+            <h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-surface tracking-tighter leading-[1.05] mb-8">
+                {{ title }}
+            </h1>
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 border-y border-outline-variant/30 py-8">
+                <div class="flex items-center gap-4">
+                    <div>
+                        <p class="font-headline font-bold text-lg text-on-surface leading-tight">Simon Hamp</p>
+                        <p class="font-label text-xs uppercase tracking-widest text-outline">Software Engineer</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-8 font-label text-xs tracking-widest uppercase">
+                    <div class="flex flex-col">
+                        <span class="text-outline mb-1">Published</span>
+                        <span class="text-on-surface font-bold">{{ date format="M j, Y" }}</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-outline mb-1">Read Time</span>
+                        <span class="text-on-surface font-bold">{{ content | read_time:260 }} Min Read</span>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         {{ if original === 'medium' }}
-            <aside>
-                This article was originally published on <a href="https://medium.com/@simonhamp" target="_blank">Medium</a>.
-                But I've stopped publishing there and now exclusively publish my content here.
-            </aside>
+            <div class="bg-surface-container p-6 mb-12 border-l-4 border-secondary">
+                <p class="text-sm text-on-surface-variant">
+                    This article was originally published on <a href="https://medium.com/@simonhamp" target="_blank" class="text-primary font-bold hover:text-secondary transition-colors">Medium</a>.
+                    I now exclusively publish here.
+                </p>
+            </div>
         {{ /if }}
-    </header>
 
-    <div class="prose-2xl prose-ul:list-disc">
-        {{ content }}
-    </div>
-</article>
+        <!-- Content Body -->
+        <div class="prose prose-lg max-w-none prose-p:text-lg prose-p:leading-relaxed prose-p:text-on-surface/90 prose-headings:font-headline prose-headings:tracking-tight prose-strong:text-secondary font-body">
+            {{ content }}
+        </div>
+
+        <!-- Author Footer -->
+        <footer class="mt-24 pt-12 border-t border-outline-variant/30">
+            <div class="flex flex-col md:flex-row items-start gap-10">
+                <div class="flex-1">
+                    <h4 class="font-headline font-bold text-xl mb-2">About Simon Hamp</h4>
+                    <p class="text-on-surface/70 leading-relaxed mb-6">
+                        Simon is a London-based software engineer who has been building digital products for over 20 years. He runs Laradevs and builds NativePHP.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="text-primary hover:text-secondary transition-colors font-label text-xs uppercase tracking-widest font-bold" href="https://github.com/simonhamp" target="_blank">GitHub</a>
+                        <a class="text-primary hover:text-secondary transition-colors font-label text-xs uppercase tracking-widest font-bold" href="https://bsky.app/profile/simonhamp.me" target="_blank">Bluesky</a>
+                        <a class="text-primary hover:text-secondary transition-colors font-label text-xs uppercase tracking-widest font-bold" href="https://linkedin.com/in/simonhamp/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </article>
+</main>

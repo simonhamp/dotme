@@ -1,2 +1,46 @@
-<h1>{{ custom_title or title }}</h1>
-{{ content }}
+<!-- Generic Page Template -->
+<main class="pt-32 pb-20 min-h-screen">
+    <div class="max-w-5xl mx-auto px-6">
+        <!-- Hero Section -->
+        <header class="mb-24">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-8">
+                <div class="max-w-2xl">
+                    <p class="font-label text-secondary text-xs uppercase tracking-[0.2em] mb-4">Engineer & Technical Curator</p>
+                    <h1 class="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter text-on-surface leading-[0.95]">
+                        {{ custom_title or title }}
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        {{ if content }}
+        <!-- Page Content -->
+        <section class="mb-24">
+            <div class="prose prose-lg max-w-3xl font-body text-on-surface-variant leading-relaxed">
+                {{ content }}
+            </div>
+        </section>
+        {{ /if }}
+
+        <!-- Recent Articles Feed -->
+        {{ collection:articles limit="6" as="posts" }}
+        <section class="mb-24">
+            <div class="flex items-center justify-between border-b border-surface-container-highest pb-4 mb-12">
+                <h2 class="font-headline text-2xl font-extrabold tracking-tight">Recent Writing</h2>
+                <a class="font-label text-stone-400 hover:text-primary transition-colors text-xs uppercase tracking-widest" href="/blog">View all articles</a>
+            </div>
+            <div class="space-y-12">
+                {{ posts }}
+                <a href="{{ url }}" class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-12 group cursor-pointer block no-underline">
+                    <span class="font-label text-stone-400 text-xs uppercase tracking-widest w-24 shrink-0">{{ date format="M Y" }}</span>
+                    <div class="flex-1">
+                        <h4 class="font-headline text-2xl font-bold group-hover:text-primary transition-colors mb-2 text-on-surface">{{ title }}</h4>
+                        <p class="text-on-surface-variant leading-relaxed max-w-3xl">{{ content | raw | markdown | strip_tags | safe_truncate(160, '...') }}</p>
+                    </div>
+                </a>
+                {{ /posts }}
+            </div>
+        </section>
+        {{ /collection:articles }}
+    </div>
+</main>
